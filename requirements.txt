@@ -1,0 +1,11 @@
+numpy
+pandas
+scikit-learn
+xgboost>=2.0
+scipy
+matplotlib
+imbalanced-learn
+psutil
+onnx
+onnxruntime
+onnxscript
