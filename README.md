@@ -4,13 +4,6 @@ Hybrid Physics-informed Misbehavior Detection System (two-stage) for V2X Basic S
 baselines, experiments, ablations, statistics, figures and an auto-generated `results/RESULTS.md`.
 Group: Munhim Qazi (24I-2506), M. Omar Waqar (24I-0044).
 
-## Folder layout expected
-```
-phase 3/
-├── code/                                              <- this folder
-├── VeReMi_Extension Dataset for Misbehaviors in VANETs/mixalldata_clean.csv   (Mendeley, DOI 10.17632/k62n4z9gdz.1)
-└── veremi_original/*.tgz                              (original VeReMi, Zenodo record 20081895; 225 archives, read directly)
-```
 
 ## Files
 | File | What it does |
