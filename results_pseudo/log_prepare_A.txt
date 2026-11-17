@@ -1,0 +1,47 @@
+16:44:35 device: cuda; args: {'csv': '..\\VeReMi_Extension Dataset for Misbehaviors in VANETs\\mixalldata_clean.csv', 'veremi_dir': None, 'veremi_max_scen': 60, 'exp': ['prepare', 'A'], 'quick': False, 'quick_frac': 0.05, 'stream_by': 'pseudo', 'seeds': 3, 'open_seeds': 3, 'abl_seeds': 3, 'c_seeds': 2, 'b_seeds': 3, 'epochs': 20, 'w': 10, 'train_stride': 5, 'test_stride': 2, 'no_secondary': True, 'out': 'results_pseudo', 'cache': 'cache'}
+16:44:51 [data] message features computed in 16s
+16:44:54 [data] windows w=10 built in 19s: train 335,196 val 278,914 test 280,040
+16:44:54 === prepare finished in 0.3 min
+16:44:54 [A] HP-MDS seed 0
+16:45:52     F1 0.9204 MCC 0.8857 FPR 0.0009 macroF1 0.7058
+16:45:53 [A] RandomForest seed 0
+16:47:04     F1 0.8959 MCC 0.8334 FPR 0.0776 macroF1 0.8012
+16:47:04 [A] XGBoost seed 0
+16:48:22     F1 0.9540 MCC 0.9311 FPR 0.0013 macroF1 0.8139
+16:48:23 [A] Bi-LSTM seed 0
+16:48:53     F1 0.9518 MCC 0.9280 FPR 0.0015 macroF1 0.8040
+16:48:54 [A] LSTM-AE seed 0
+16:49:31     F1 0.8184 MCC 0.7335 FPR 0.0493
+16:49:32 [A] IsolationForest seed 0
+16:49:38     F1 0.7361 MCC 0.6050 FPR 0.0999
+16:49:39 [A] Physics-only seed 0
+16:49:40     F1 0.9168 MCC 0.8811 FPR 0.0005
+16:49:41 [A] HP-MDS seed 1
+16:50:34     F1 0.9199 MCC 0.8850 FPR 0.0009 macroF1 0.7073
+16:50:34 [A] RandomForest seed 1
+16:51:33     F1 0.8918 MCC 0.8265 FPR 0.0837 macroF1 0.8010
+16:51:33 [A] XGBoost seed 1
+16:53:21     F1 0.9541 MCC 0.9313 FPR 0.0011 macroF1 0.8106
+16:53:21 [A] Bi-LSTM seed 1
+16:53:42     F1 0.9505 MCC 0.9259 FPR 0.0021 macroF1 0.7944
+16:53:42 [A] LSTM-AE seed 1
+16:54:25     F1 0.8242 MCC 0.7409 FPR 0.0489
+16:54:25 [A] IsolationForest seed 1
+16:54:32     F1 0.7287 MCC 0.5966 FPR 0.0984
+16:54:32 [A] Physics-only seed 1
+16:54:33     F1 0.9168 MCC 0.8811 FPR 0.0005
+16:54:33 [A] HP-MDS seed 2
+16:55:23     F1 0.9203 MCC 0.8855 FPR 0.0008 macroF1 0.7120
+16:55:23 [A] RandomForest seed 2
+16:56:17     F1 0.8892 MCC 0.8223 FPR 0.0871 macroF1 0.8003
+16:56:17 [A] XGBoost seed 2
+16:57:02     F1 0.9541 MCC 0.9313 FPR 0.0012 macroF1 0.8083
+16:57:02 [A] Bi-LSTM seed 2
+16:57:19     F1 0.9466 MCC 0.9192 FPR 0.0075 macroF1 0.7955
+16:57:19 [A] LSTM-AE seed 2
+16:57:46     F1 0.8191 MCC 0.7148 FPR 0.1006
+16:57:46 [A] IsolationForest seed 2
+16:57:52     F1 0.7244 MCC 0.5904 FPR 0.1001
+16:57:52 [A] Physics-only seed 2
+16:57:53     F1 0.9168 MCC 0.8811 FPR 0.0005
+16:57:53 === A finished in 13.0 min

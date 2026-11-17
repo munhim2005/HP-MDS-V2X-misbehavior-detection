@@ -1,0 +1,77 @@
+{
+ "tr": {
+  "windows": 335196,
+  "vehicles": 13959,
+  "classes": {
+   "Genuine": 213321,
+   "ConstPos": 4884,
+   "ConstPosOffset": 4860,
+   "RandomPos": 4870,
+   "RandomPosOffset": 4759,
+   "ConstSpeed": 4765,
+   "ConstSpeedOffset": 5001,
+   "RandomSpeed": 4741,
+   "RandomSpeedOffset": 4798,
+   "EventualStop": 4702,
+   "Disruptive": 4929,
+   "DataReplay": 4940,
+   "DelayedMessages": 5003,
+   "DoS": 15343,
+   "DoSRandom": 14030,
+   "DoSDisruptive": 14923,
+   "GridSybil": 19180,
+   "DataReplaySybil": 126,
+   "DoSDisruptiveSybil": 21
+  }
+ },
+ "va": {
+  "windows": 278914,
+  "vehicles": 4644,
+  "classes": {
+   "Genuine": 174915,
+   "ConstPos": 4045,
+   "ConstPosOffset": 3842,
+   "RandomPos": 3932,
+   "RandomPosOffset": 3999,
+   "ConstSpeed": 3743,
+   "ConstSpeedOffset": 4109,
+   "RandomSpeed": 3843,
+   "RandomSpeedOffset": 3804,
+   "EventualStop": 4081,
+   "Disruptive": 4072,
+   "DataReplay": 4406,
+   "DelayedMessages": 4009,
+   "DoS": 14033,
+   "DoSRandom": 13253,
+   "DoSDisruptive": 12011,
+   "GridSybil": 16653,
+   "DataReplaySybil": 77,
+   "DoSDisruptiveSybil": 87
+  }
+ },
+ "te": {
+  "windows": 280040,
+  "vehicles": 4660,
+  "classes": {
+   "Genuine": 176876,
+   "ConstPos": 4086,
+   "ConstPosOffset": 4286,
+   "RandomPos": 4335,
+   "RandomPosOffset": 3931,
+   "ConstSpeed": 3826,
+   "ConstSpeedOffset": 4100,
+   "RandomSpeed": 3961,
+   "RandomSpeedOffset": 4035,
+   "EventualStop": 4098,
+   "Disruptive": 3784,
+   "DataReplay": 3925,
+   "DelayedMessages": 3568,
+   "DoS": 11789,
+   "DoSRandom": 13540,
+   "DoSDisruptive": 13838,
+   "GridSybil": 15866,
+   "DataReplaySybil": 49,
+   "DoSDisruptiveSybil": 147
+  }
+ }
+}
