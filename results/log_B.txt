@@ -1,0 +1,59 @@
+17:41:46 device: cuda; args: {'csv': None, 'veremi_dir': None, 'veremi_max_scen': 60, 'exp': ['B'], 'quick': False, 'quick_frac': 0.05, 'stream_by': 'sender', 'seeds': 3, 'open_seeds': 3, 'abl_seeds': 3, 'c_seeds': 2, 'b_seeds': 5, 'epochs': 20, 'w': 10, 'train_stride': 5, 'test_stride': 2, 'no_secondary': False, 'out': 'results', 'cache': 'cache'}
+17:41:47 [data] loaded cached messages cache\msgs_full.pkl (3,194,808)
+17:41:47 [B] offpeak->rush HP-MDS seed 3
+17:42:09     source F1 0.9480 -> target F1 0.9489 (target FPR 0.0000)
+17:42:09 [B] offpeak->rush RandomForest seed 3
+17:42:29     source F1 0.9630 -> target F1 0.9638 (target FPR 0.0121)
+17:42:29 [B] offpeak->rush XGBoost seed 3
+17:42:48     source F1 0.9727 -> target F1 0.9723 (target FPR 0.0008)
+17:42:48 [B] offpeak->rush Bi-LSTM seed 3
+17:42:56     source F1 0.9672 -> target F1 0.9663 (target FPR 0.0091)
+17:42:56 [B] offpeak->rush LSTM-AE seed 3
+17:43:05     source F1 0.8405 -> target F1 0.8290 (target FPR 0.1007)
+17:43:05 [B] offpeak->rush IsolationForest seed 3
+17:43:09     source F1 0.7959 -> target F1 0.7872 (target FPR 0.1009)
+17:43:09 [B] offpeak->rush Physics-only seed 3
+17:43:10     source F1 0.9458 -> target F1 0.9468 (target FPR 0.0004)
+17:43:10 [B] offpeak->rush HP-MDS seed 4
+17:43:27     source F1 0.9480 -> target F1 0.9491 (target FPR 0.0001)
+17:43:27 [B] offpeak->rush RandomForest seed 4
+17:43:48     source F1 0.9649 -> target F1 0.9656 (target FPR 0.0097)
+17:43:48 [B] offpeak->rush XGBoost seed 4
+17:44:05     source F1 0.9728 -> target F1 0.9718 (target FPR 0.0010)
+17:44:05 [B] offpeak->rush Bi-LSTM seed 4
+17:44:14     source F1 0.9717 -> target F1 0.9704 (target FPR 0.0023)
+17:44:14 [B] offpeak->rush LSTM-AE seed 4
+17:44:23     source F1 0.8457 -> target F1 0.8336 (target FPR 0.0988)
+17:44:23 [B] offpeak->rush IsolationForest seed 4
+17:44:28     source F1 0.7928 -> target F1 0.7847 (target FPR 0.1016)
+17:44:28 [B] offpeak->rush Physics-only seed 4
+17:44:28     source F1 0.9458 -> target F1 0.9468 (target FPR 0.0004)
+17:44:28 [B] rush->offpeak HP-MDS seed 3
+17:44:46     source F1 0.9487 -> target F1 0.9478 (target FPR 0.0000)
+17:44:46 [B] rush->offpeak RandomForest seed 3
+17:45:06     source F1 0.9691 -> target F1 0.9706 (target FPR 0.0040)
+17:45:06 [B] rush->offpeak XGBoost seed 3
+17:45:26     source F1 0.9712 -> target F1 0.9725 (target FPR 0.0013)
+17:45:26 [B] rush->offpeak Bi-LSTM seed 3
+17:45:34     source F1 0.9724 -> target F1 0.9715 (target FPR 0.0010)
+17:45:34 [B] rush->offpeak LSTM-AE seed 3
+17:45:44     source F1 0.8246 -> target F1 0.8330 (target FPR 0.1080)
+17:45:44 [B] rush->offpeak IsolationForest seed 3
+17:45:49     source F1 0.7900 -> target F1 0.7880 (target FPR 0.0500)
+17:45:49 [B] rush->offpeak Physics-only seed 3
+17:45:49     source F1 0.9469 -> target F1 0.9459 (target FPR 0.0006)
+17:45:49 [B] rush->offpeak HP-MDS seed 4
+17:46:11     source F1 0.9487 -> target F1 0.9474 (target FPR 0.0000)
+17:46:11 [B] rush->offpeak RandomForest seed 4
+17:46:30     source F1 0.9698 -> target F1 0.9711 (target FPR 0.0033)
+17:46:30 [B] rush->offpeak XGBoost seed 4
+17:46:50     source F1 0.9716 -> target F1 0.9724 (target FPR 0.0014)
+17:46:50 [B] rush->offpeak Bi-LSTM seed 4
+17:47:02     source F1 0.9716 -> target F1 0.9715 (target FPR 0.0015)
+17:47:02 [B] rush->offpeak LSTM-AE seed 4
+17:47:12     source F1 0.8277 -> target F1 0.8368 (target FPR 0.1076)
+17:47:12 [B] rush->offpeak IsolationForest seed 4
+17:47:16     source F1 0.7955 -> target F1 0.7978 (target FPR 0.0505)
+17:47:16 [B] rush->offpeak Physics-only seed 4
+17:47:16     source F1 0.9469 -> target F1 0.9459 (target FPR 0.0006)
+17:47:16 === B finished in 5.5 min

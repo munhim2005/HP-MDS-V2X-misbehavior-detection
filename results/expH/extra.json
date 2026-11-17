@@ -1,0 +1,1084 @@
+{
+ "time_jitter": [
+  {
+   "time_sigma_s": 0.0,
+   "model": "HP-MDS",
+   "f1": 0.948603299865649,
+   "fpr": 5.653678283090979e-06,
+   "recall": 0.9022388480856519
+  },
+  {
+   "time_sigma_s": 0.0,
+   "model": "RandomForest",
+   "f1": 0.9614452612609667,
+   "fpr": 0.017181528302313485,
+   "recall": 0.9484347412465636
+  },
+  {
+   "time_sigma_s": 0.0,
+   "model": "XGBoost",
+   "f1": 0.9726836532097949,
+   "fpr": 0.000819783351048192,
+   "recall": 0.9479268282851084
+  },
+  {
+   "time_sigma_s": 0.0,
+   "model": "Bi-LSTM",
+   "f1": 0.9720251938786489,
+   "fpr": 0.0009385105949931025,
+   "recall": 0.9468384433677048
+  },
+  {
+   "time_sigma_s": 0.0,
+   "model": "LSTM-AE",
+   "f1": 0.8680307145262997,
+   "fpr": 0.0492604988805717,
+   "recall": 0.8206986624958682
+  },
+  {
+   "time_sigma_s": 0.0,
+   "model": "Physics-only",
+   "f1": 0.9463752923151358,
+   "fpr": 0.0005088310454781881,
+   "recall": 0.8988608237864508
+  },
+  {
+   "time_sigma_s": 0.02,
+   "model": "HP-MDS",
+   "f1": 0.9559606427431504,
+   "fpr": 0.025520703769872678,
+   "recall": 0.9489587784290171
+  },
+  {
+   "time_sigma_s": 0.02,
+   "model": "RandomForest",
+   "f1": 0.9614452612609667,
+   "fpr": 0.017181528302313485,
+   "recall": 0.9484347412465636
+  },
+  {
+   "time_sigma_s": 0.02,
+   "model": "XGBoost",
+   "f1": 0.9592963329625963,
+   "fpr": 0.02084511182975644,
+   "recall": 0.9491764554124978
+  },
+  {
+   "time_sigma_s": 0.02,
+   "model": "Bi-LSTM",
+   "f1": 0.9697337962962963,
+   "fpr": 0.0033017481173251316,
+   "recall": 0.9456774994558076
+  },
+  {
+   "time_sigma_s": 0.02,
+   "model": "LSTM-AE",
+   "f1": 0.8680307145262997,
+   "fpr": 0.0492604988805717,
+   "recall": 0.8206986624958682
+  },
+  {
+   "time_sigma_s": 0.02,
+   "model": "Physics-only",
+   "f1": 0.583772208495117,
+   "fpr": 1.0,
+   "recall": 1.0
+  },
+  {
+   "time_sigma_s": 0.05,
+   "model": "HP-MDS",
+   "f1": 0.9124972959609382,
+   "fpr": 0.09455776928469663,
+   "recall": 0.9522158710707289
+  },
+  {
+   "time_sigma_s": 0.05,
+   "model": "RandomForest",
+   "f1": 0.9614609767360132,
+   "fpr": 0.017158913589181122,
+   "recall": 0.9484347412465636
+  },
+  {
+   "time_sigma_s": 0.05,
+   "model": "XGBoost",
+   "f1": 0.9592963329625963,
+   "fpr": 0.02084511182975644,
+   "recall": 0.9491764554124978
+  },
+  {
+   "time_sigma_s": 0.05,
+   "model": "Bi-LSTM",
+   "f1": 0.9605087262511466,
+   "fpr": 0.013127840973337253,
+   "recall": 0.9413158976756936
+  },
+  {
+   "time_sigma_s": 0.05,
+   "model": "LSTM-AE",
+   "f1": 0.8680258883118877,
+   "fpr": 0.0492604988805717,
+   "recall": 0.8206906003853689
+  },
+  {
+   "time_sigma_s": 0.05,
+   "model": "Physics-only",
+   "f1": 0.583772208495117,
+   "fpr": 1.0,
+   "recall": 1.0
+  },
+  {
+   "time_sigma_s": 0.1,
+   "model": "HP-MDS",
+   "f1": 0.8575826669509256,
+   "fpr": 0.1924568624347,
+   "recall": 0.9566903423978329
+  },
+  {
+   "time_sigma_s": 0.1,
+   "model": "RandomForest",
+   "f1": 0.9571403006442376,
+   "fpr": 0.0235645310839232,
+   "recall": 0.948644356119545
+  },
+  {
+   "time_sigma_s": 0.1,
+   "model": "XGBoost",
+   "f1": 0.9592533446314795,
+   "fpr": 0.02090730229087044,
+   "recall": 0.9491764554124978
+  },
+  {
+   "time_sigma_s": 0.1,
+   "model": "Bi-LSTM",
+   "f1": 0.9467365257300678,
+   "fpr": 0.03180194034238676,
+   "recall": 0.9396228544708434
+  },
+  {
+   "time_sigma_s": 0.1,
+   "model": "LSTM-AE",
+   "f1": 0.8681079283603979,
+   "fpr": 0.0492604988805717,
+   "recall": 0.8208276562638568
+  },
+  {
+   "time_sigma_s": 0.1,
+   "model": "Physics-only",
+   "f1": 0.583772208495117,
+   "fpr": 1.0,
+   "recall": 1.0
+  },
+  {
+   "time_sigma_s": 0.2,
+   "model": "HP-MDS",
+   "f1": 0.7069137954227762,
+   "fpr": 0.5486951310522626,
+   "recall": 0.9744350476067625
+  },
+  {
+   "time_sigma_s": 0.2,
+   "model": "RandomForest",
+   "f1": 0.9225465248542983,
+   "fpr": 0.07794160881069223,
+   "recall": 0.9513935357998017
+  },
+  {
+   "time_sigma_s": 0.2,
+   "model": "XGBoost",
+   "f1": 0.9533310131039004,
+   "fpr": 0.02985142133472037,
+   "recall": 0.9495956851584608
+  },
+  {
+   "time_sigma_s": 0.2,
+   "model": "Bi-LSTM",
+   "f1": 0.9131114358729886,
+   "fpr": 0.08502001402112214,
+   "recall": 0.9419689286261358
+  },
+  {
+   "time_sigma_s": 0.2,
+   "model": "LSTM-AE",
+   "f1": 0.8690908626350462,
+   "fpr": 0.04945272394219679,
+   "recall": 0.8226819416786927
+  },
+  {
+   "time_sigma_s": 0.2,
+   "model": "Physics-only",
+   "f1": 0.583772208495117,
+   "fpr": 1.0,
+   "recall": 1.0
+  }
+ ],
+ "adversarial": [
+  {
+   "eps": 0.0,
+   "perturbation": "clean",
+   "model": "HP-MDS",
+   "kind": "clean",
+   "attack_detection_rate": 0.9031
+  },
+  {
+   "eps": 0.0,
+   "perturbation": "clean",
+   "model": "RandomForest",
+   "kind": "clean",
+   "attack_detection_rate": 0.94905
+  },
+  {
+   "eps": 0.0,
+   "perturbation": "clean",
+   "model": "XGBoost",
+   "kind": "clean",
+   "attack_detection_rate": 0.9485
+  },
+  {
+   "eps": 0.0,
+   "perturbation": "clean",
+   "model": "Bi-LSTM",
+   "kind": "clean",
+   "attack_detection_rate": 0.9473
+  },
+  {
+   "eps": 0.0,
+   "perturbation": "clean",
+   "model": "LSTM-AE",
+   "kind": "clean",
+   "attack_detection_rate": 0.8248
+  },
+  {
+   "eps": 0.0,
+   "perturbation": "clean",
+   "model": "Physics-only",
+   "kind": "clean",
+   "attack_detection_rate": 0.8993
+  },
+  {
+   "eps": 0.01,
+   "perturbation": "random noise",
+   "model": "HP-MDS",
+   "kind": "random noise",
+   "attack_detection_rate": 0.94725
+  },
+  {
+   "eps": 0.01,
+   "perturbation": "random noise",
+   "model": "RandomForest",
+   "kind": "random noise",
+   "attack_detection_rate": 0.9025
+  },
+  {
+   "eps": 0.01,
+   "perturbation": "random noise",
+   "model": "XGBoost",
+   "kind": "random noise",
+   "attack_detection_rate": 0.9277
+  },
+  {
+   "eps": 0.01,
+   "perturbation": "random noise",
+   "model": "Bi-LSTM",
+   "kind": "random noise",
+   "attack_detection_rate": 0.94295
+  },
+  {
+   "eps": 0.01,
+   "perturbation": "random noise",
+   "model": "LSTM-AE",
+   "kind": "random noise",
+   "attack_detection_rate": 0.8253
+  },
+  {
+   "eps": 0.01,
+   "perturbation": "random noise",
+   "model": "Physics-only",
+   "kind": "random noise",
+   "attack_detection_rate": 1.0
+  },
+  {
+   "eps": 0.01,
+   "perturbation": "PGD vs HP-MDS",
+   "model": "HP-MDS",
+   "kind": "white-box",
+   "attack_detection_rate": 0.9178
+  },
+  {
+   "eps": 0.01,
+   "perturbation": "PGD vs HP-MDS",
+   "model": "RandomForest",
+   "kind": "transfer",
+   "attack_detection_rate": 0.9396
+  },
+  {
+   "eps": 0.01,
+   "perturbation": "PGD vs HP-MDS",
+   "model": "XGBoost",
+   "kind": "transfer",
+   "attack_detection_rate": 0.9533
+  },
+  {
+   "eps": 0.01,
+   "perturbation": "PGD vs HP-MDS",
+   "model": "Bi-LSTM",
+   "kind": "transfer",
+   "attack_detection_rate": 0.9412
+  },
+  {
+   "eps": 0.01,
+   "perturbation": "PGD vs HP-MDS",
+   "model": "LSTM-AE",
+   "kind": "transfer",
+   "attack_detection_rate": 0.8231
+  },
+  {
+   "eps": 0.01,
+   "perturbation": "PGD vs HP-MDS",
+   "model": "Physics-only",
+   "kind": "transfer",
+   "attack_detection_rate": 0.88765
+  },
+  {
+   "eps": 0.01,
+   "perturbation": "PGD vs Bi-LSTM",
+   "model": "HP-MDS",
+   "kind": "transfer",
+   "attack_detection_rate": 0.9032
+  },
+  {
+   "eps": 0.01,
+   "perturbation": "PGD vs Bi-LSTM",
+   "model": "RandomForest",
+   "kind": "transfer",
+   "attack_detection_rate": 0.9257
+  },
+  {
+   "eps": 0.01,
+   "perturbation": "PGD vs Bi-LSTM",
+   "model": "XGBoost",
+   "kind": "transfer",
+   "attack_detection_rate": 0.95335
+  },
+  {
+   "eps": 0.01,
+   "perturbation": "PGD vs Bi-LSTM",
+   "model": "Bi-LSTM",
+   "kind": "white-box",
+   "attack_detection_rate": 0.9288
+  },
+  {
+   "eps": 0.01,
+   "perturbation": "PGD vs Bi-LSTM",
+   "model": "LSTM-AE",
+   "kind": "transfer",
+   "attack_detection_rate": 0.8244
+  },
+  {
+   "eps": 0.01,
+   "perturbation": "PGD vs Bi-LSTM",
+   "model": "Physics-only",
+   "kind": "transfer",
+   "attack_detection_rate": 0.8993
+  },
+  {
+   "eps": 0.05,
+   "perturbation": "random noise",
+   "model": "HP-MDS",
+   "kind": "random noise",
+   "attack_detection_rate": 0.96515
+  },
+  {
+   "eps": 0.05,
+   "perturbation": "random noise",
+   "model": "RandomForest",
+   "kind": "random noise",
+   "attack_detection_rate": 0.93775
+  },
+  {
+   "eps": 0.05,
+   "perturbation": "random noise",
+   "model": "XGBoost",
+   "kind": "random noise",
+   "attack_detection_rate": 0.98765
+  },
+  {
+   "eps": 0.05,
+   "perturbation": "random noise",
+   "model": "Bi-LSTM",
+   "kind": "random noise",
+   "attack_detection_rate": 0.99435
+  },
+  {
+   "eps": 0.05,
+   "perturbation": "random noise",
+   "model": "LSTM-AE",
+   "kind": "random noise",
+   "attack_detection_rate": 0.84515
+  },
+  {
+   "eps": 0.05,
+   "perturbation": "random noise",
+   "model": "Physics-only",
+   "kind": "random noise",
+   "attack_detection_rate": 1.0
+  },
+  {
+   "eps": 0.05,
+   "perturbation": "PGD vs HP-MDS",
+   "model": "HP-MDS",
+   "kind": "white-box",
+   "attack_detection_rate": 0.86305
+  },
+  {
+   "eps": 0.05,
+   "perturbation": "PGD vs HP-MDS",
+   "model": "RandomForest",
+   "kind": "transfer",
+   "attack_detection_rate": 0.9333
+  },
+  {
+   "eps": 0.05,
+   "perturbation": "PGD vs HP-MDS",
+   "model": "XGBoost",
+   "kind": "transfer",
+   "attack_detection_rate": 0.9759
+  },
+  {
+   "eps": 0.05,
+   "perturbation": "PGD vs HP-MDS",
+   "model": "Bi-LSTM",
+   "kind": "transfer",
+   "attack_detection_rate": 0.94445
+  },
+  {
+   "eps": 0.05,
+   "perturbation": "PGD vs HP-MDS",
+   "model": "LSTM-AE",
+   "kind": "transfer",
+   "attack_detection_rate": 0.82355
+  },
+  {
+   "eps": 0.05,
+   "perturbation": "PGD vs HP-MDS",
+   "model": "Physics-only",
+   "kind": "transfer",
+   "attack_detection_rate": 0.86595
+  },
+  {
+   "eps": 0.05,
+   "perturbation": "PGD vs Bi-LSTM",
+   "model": "HP-MDS",
+   "kind": "transfer",
+   "attack_detection_rate": 0.90365
+  },
+  {
+   "eps": 0.05,
+   "perturbation": "PGD vs Bi-LSTM",
+   "model": "RandomForest",
+   "kind": "transfer",
+   "attack_detection_rate": 0.9409
+  },
+  {
+   "eps": 0.05,
+   "perturbation": "PGD vs Bi-LSTM",
+   "model": "XGBoost",
+   "kind": "transfer",
+   "attack_detection_rate": 0.9697
+  },
+  {
+   "eps": 0.05,
+   "perturbation": "PGD vs Bi-LSTM",
+   "model": "Bi-LSTM",
+   "kind": "white-box",
+   "attack_detection_rate": 0.9068
+  },
+  {
+   "eps": 0.05,
+   "perturbation": "PGD vs Bi-LSTM",
+   "model": "LSTM-AE",
+   "kind": "transfer",
+   "attack_detection_rate": 0.84395
+  },
+  {
+   "eps": 0.05,
+   "perturbation": "PGD vs Bi-LSTM",
+   "model": "Physics-only",
+   "kind": "transfer",
+   "attack_detection_rate": 0.8993
+  },
+  {
+   "eps": 0.1,
+   "perturbation": "random noise",
+   "model": "HP-MDS",
+   "kind": "random noise",
+   "attack_detection_rate": 0.97665
+  },
+  {
+   "eps": 0.1,
+   "perturbation": "random noise",
+   "model": "RandomForest",
+   "kind": "random noise",
+   "attack_detection_rate": 0.99665
+  },
+  {
+   "eps": 0.1,
+   "perturbation": "random noise",
+   "model": "XGBoost",
+   "kind": "random noise",
+   "attack_detection_rate": 1.0
+  },
+  {
+   "eps": 0.1,
+   "perturbation": "random noise",
+   "model": "Bi-LSTM",
+   "kind": "random noise",
+   "attack_detection_rate": 0.99995
+  },
+  {
+   "eps": 0.1,
+   "perturbation": "random noise",
+   "model": "LSTM-AE",
+   "kind": "random noise",
+   "attack_detection_rate": 0.896
+  },
+  {
+   "eps": 0.1,
+   "perturbation": "random noise",
+   "model": "Physics-only",
+   "kind": "random noise",
+   "attack_detection_rate": 1.0
+  },
+  {
+   "eps": 0.1,
+   "perturbation": "PGD vs HP-MDS",
+   "model": "HP-MDS",
+   "kind": "white-box",
+   "attack_detection_rate": 0.82815
+  },
+  {
+   "eps": 0.1,
+   "perturbation": "PGD vs HP-MDS",
+   "model": "RandomForest",
+   "kind": "transfer",
+   "attack_detection_rate": 0.9703
+  },
+  {
+   "eps": 0.1,
+   "perturbation": "PGD vs HP-MDS",
+   "model": "XGBoost",
+   "kind": "transfer",
+   "attack_detection_rate": 0.99165
+  },
+  {
+   "eps": 0.1,
+   "perturbation": "PGD vs HP-MDS",
+   "model": "Bi-LSTM",
+   "kind": "transfer",
+   "attack_detection_rate": 0.95405
+  },
+  {
+   "eps": 0.1,
+   "perturbation": "PGD vs HP-MDS",
+   "model": "LSTM-AE",
+   "kind": "transfer",
+   "attack_detection_rate": 0.84855
+  },
+  {
+   "eps": 0.1,
+   "perturbation": "PGD vs HP-MDS",
+   "model": "Physics-only",
+   "kind": "transfer",
+   "attack_detection_rate": 0.929
+  },
+  {
+   "eps": 0.1,
+   "perturbation": "PGD vs Bi-LSTM",
+   "model": "HP-MDS",
+   "kind": "transfer",
+   "attack_detection_rate": 0.91035
+  },
+  {
+   "eps": 0.1,
+   "perturbation": "PGD vs Bi-LSTM",
+   "model": "RandomForest",
+   "kind": "transfer",
+   "attack_detection_rate": 0.95175
+  },
+  {
+   "eps": 0.1,
+   "perturbation": "PGD vs Bi-LSTM",
+   "model": "XGBoost",
+   "kind": "transfer",
+   "attack_detection_rate": 0.9836
+  },
+  {
+   "eps": 0.1,
+   "perturbation": "PGD vs Bi-LSTM",
+   "model": "Bi-LSTM",
+   "kind": "white-box",
+   "attack_detection_rate": 0.92475
+  },
+  {
+   "eps": 0.1,
+   "perturbation": "PGD vs Bi-LSTM",
+   "model": "LSTM-AE",
+   "kind": "transfer",
+   "attack_detection_rate": 0.862
+  },
+  {
+   "eps": 0.1,
+   "perturbation": "PGD vs Bi-LSTM",
+   "model": "Physics-only",
+   "kind": "transfer",
+   "attack_detection_rate": 0.8993
+  },
+  {
+   "eps": 0.25,
+   "perturbation": "random noise",
+   "model": "HP-MDS",
+   "kind": "random noise",
+   "attack_detection_rate": 0.98285
+  },
+  {
+   "eps": 0.25,
+   "perturbation": "random noise",
+   "model": "RandomForest",
+   "kind": "random noise",
+   "attack_detection_rate": 0.9999
+  },
+  {
+   "eps": 0.25,
+   "perturbation": "random noise",
+   "model": "XGBoost",
+   "kind": "random noise",
+   "attack_detection_rate": 0.99995
+  },
+  {
+   "eps": 0.25,
+   "perturbation": "random noise",
+   "model": "Bi-LSTM",
+   "kind": "random noise",
+   "attack_detection_rate": 1.0
+  },
+  {
+   "eps": 0.25,
+   "perturbation": "random noise",
+   "model": "LSTM-AE",
+   "kind": "random noise",
+   "attack_detection_rate": 1.0
+  },
+  {
+   "eps": 0.25,
+   "perturbation": "random noise",
+   "model": "Physics-only",
+   "kind": "random noise",
+   "attack_detection_rate": 1.0
+  },
+  {
+   "eps": 0.25,
+   "perturbation": "PGD vs HP-MDS",
+   "model": "HP-MDS",
+   "kind": "white-box",
+   "attack_detection_rate": 0.84815
+  },
+  {
+   "eps": 0.25,
+   "perturbation": "PGD vs HP-MDS",
+   "model": "RandomForest",
+   "kind": "transfer",
+   "attack_detection_rate": 0.993
+  },
+  {
+   "eps": 0.25,
+   "perturbation": "PGD vs HP-MDS",
+   "model": "XGBoost",
+   "kind": "transfer",
+   "attack_detection_rate": 0.9939
+  },
+  {
+   "eps": 0.25,
+   "perturbation": "PGD vs HP-MDS",
+   "model": "Bi-LSTM",
+   "kind": "transfer",
+   "attack_detection_rate": 0.9662
+  },
+  {
+   "eps": 0.25,
+   "perturbation": "PGD vs HP-MDS",
+   "model": "LSTM-AE",
+   "kind": "transfer",
+   "attack_detection_rate": 0.94285
+  },
+  {
+   "eps": 0.25,
+   "perturbation": "PGD vs HP-MDS",
+   "model": "Physics-only",
+   "kind": "transfer",
+   "attack_detection_rate": 0.95525
+  },
+  {
+   "eps": 0.25,
+   "perturbation": "PGD vs Bi-LSTM",
+   "model": "HP-MDS",
+   "kind": "transfer",
+   "attack_detection_rate": 0.93975
+  },
+  {
+   "eps": 0.25,
+   "perturbation": "PGD vs Bi-LSTM",
+   "model": "RandomForest",
+   "kind": "transfer",
+   "attack_detection_rate": 0.98055
+  },
+  {
+   "eps": 0.25,
+   "perturbation": "PGD vs Bi-LSTM",
+   "model": "XGBoost",
+   "kind": "transfer",
+   "attack_detection_rate": 0.99075
+  },
+  {
+   "eps": 0.25,
+   "perturbation": "PGD vs Bi-LSTM",
+   "model": "Bi-LSTM",
+   "kind": "white-box",
+   "attack_detection_rate": 0.9421
+  },
+  {
+   "eps": 0.25,
+   "perturbation": "PGD vs Bi-LSTM",
+   "model": "LSTM-AE",
+   "kind": "transfer",
+   "attack_detection_rate": 0.98935
+  },
+  {
+   "eps": 0.25,
+   "perturbation": "PGD vs Bi-LSTM",
+   "model": "Physics-only",
+   "kind": "transfer",
+   "attack_detection_rate": 0.8993
+  },
+  {
+   "eps": 0.5,
+   "perturbation": "random noise",
+   "model": "HP-MDS",
+   "kind": "random noise",
+   "attack_detection_rate": 0.9871
+  },
+  {
+   "eps": 0.5,
+   "perturbation": "random noise",
+   "model": "RandomForest",
+   "kind": "random noise",
+   "attack_detection_rate": 1.0
+  },
+  {
+   "eps": 0.5,
+   "perturbation": "random noise",
+   "model": "XGBoost",
+   "kind": "random noise",
+   "attack_detection_rate": 1.0
+  },
+  {
+   "eps": 0.5,
+   "perturbation": "random noise",
+   "model": "Bi-LSTM",
+   "kind": "random noise",
+   "attack_detection_rate": 1.0
+  },
+  {
+   "eps": 0.5,
+   "perturbation": "random noise",
+   "model": "LSTM-AE",
+   "kind": "random noise",
+   "attack_detection_rate": 1.0
+  },
+  {
+   "eps": 0.5,
+   "perturbation": "random noise",
+   "model": "Physics-only",
+   "kind": "random noise",
+   "attack_detection_rate": 1.0
+  },
+  {
+   "eps": 0.5,
+   "perturbation": "PGD vs HP-MDS",
+   "model": "HP-MDS",
+   "kind": "white-box",
+   "attack_detection_rate": 0.8346
+  },
+  {
+   "eps": 0.5,
+   "perturbation": "PGD vs HP-MDS",
+   "model": "RandomForest",
+   "kind": "transfer",
+   "attack_detection_rate": 0.99225
+  },
+  {
+   "eps": 0.5,
+   "perturbation": "PGD vs HP-MDS",
+   "model": "XGBoost",
+   "kind": "transfer",
+   "attack_detection_rate": 0.9909
+  },
+  {
+   "eps": 0.5,
+   "perturbation": "PGD vs HP-MDS",
+   "model": "Bi-LSTM",
+   "kind": "transfer",
+   "attack_detection_rate": 0.99055
+  },
+  {
+   "eps": 0.5,
+   "perturbation": "PGD vs HP-MDS",
+   "model": "LSTM-AE",
+   "kind": "transfer",
+   "attack_detection_rate": 0.99895
+  },
+  {
+   "eps": 0.5,
+   "perturbation": "PGD vs HP-MDS",
+   "model": "Physics-only",
+   "kind": "transfer",
+   "attack_detection_rate": 0.95815
+  },
+  {
+   "eps": 0.5,
+   "perturbation": "PGD vs Bi-LSTM",
+   "model": "HP-MDS",
+   "kind": "transfer",
+   "attack_detection_rate": 0.93695
+  },
+  {
+   "eps": 0.5,
+   "perturbation": "PGD vs Bi-LSTM",
+   "model": "RandomForest",
+   "kind": "transfer",
+   "attack_detection_rate": 0.9894
+  },
+  {
+   "eps": 0.5,
+   "perturbation": "PGD vs Bi-LSTM",
+   "model": "XGBoost",
+   "kind": "transfer",
+   "attack_detection_rate": 0.9958
+  },
+  {
+   "eps": 0.5,
+   "perturbation": "PGD vs Bi-LSTM",
+   "model": "Bi-LSTM",
+   "kind": "white-box",
+   "attack_detection_rate": 0.93045
+  },
+  {
+   "eps": 0.5,
+   "perturbation": "PGD vs Bi-LSTM",
+   "model": "LSTM-AE",
+   "kind": "transfer",
+   "attack_detection_rate": 1.0
+  },
+  {
+   "eps": 0.5,
+   "perturbation": "PGD vs Bi-LSTM",
+   "model": "Physics-only",
+   "kind": "transfer",
+   "attack_detection_rate": 0.8993
+  }
+ ],
+ "permutation_importance": {
+  "base_stage2_macro_f1": 0.8272381537019811,
+  "base_stage1_f1": 0.9484311632870864,
+  "features": {
+   "r_cv_pred": {
+    "stage2_macro_f1_drop": 0.23941232283035552,
+    "stage1_binary_f1_drop": 0.14039647609126304
+   },
+   "rate": {
+    "stage2_macro_f1_drop": 0.2331715763264013,
+    "stage1_binary_f1_drop": 0.13216604909093776
+   },
+   "dpos": {
+    "stage2_macro_f1_drop": 0.20980490501532356,
+    "stage1_binary_f1_drop": 0.05139002785287905
+   },
+   "r_acc": {
+    "stage2_macro_f1_drop": 0.18713252383441237,
+    "stage1_binary_f1_drop": 0.118247997049573
+   },
+   "r_disp": {
+    "stage2_macro_f1_drop": 0.1469160504653113,
+    "stage1_binary_f1_drop": 0.18722553525937613
+   },
+   "r_time": {
+    "stage2_macro_f1_drop": 0.13810204027587636,
+    "stage1_binary_f1_drop": 0.13287600505358022
+   },
+   "r_implied_v": {
+    "stage2_macro_f1_drop": 0.12747651554814565,
+    "stage1_binary_f1_drop": 0.1811793120515427
+   },
+   "r_head_vel": {
+    "stage2_macro_f1_drop": 0.1273083505505046,
+    "stage1_binary_f1_drop": 0.07702614050031242
+   },
+   "dt": {
+    "stage2_macro_f1_drop": 0.1184113213099326,
+    "stage1_binary_f1_drop": 0.1322894310036219
+   },
+   "v": {
+    "stage2_macro_f1_drop": 0.10768670380834022,
+    "stage1_binary_f1_drop": 0.02566810842989642
+   },
+   "r_head_move": {
+    "stage2_macro_f1_drop": 0.09682423198706502,
+    "stage1_binary_f1_drop": 0.13536452986885084
+   },
+   "vy": {
+    "stage2_macro_f1_drop": 0.08407489716265737,
+    "stage1_binary_f1_drop": 0.0018695282008611702
+   },
+   "rel_x": {
+    "stage2_macro_f1_drop": 0.06725212750184406,
+    "stage1_binary_f1_drop": 0.0812382483852766
+   },
+   "vx": {
+    "stage2_macro_f1_drop": 0.06367673596322398,
+    "stage1_binary_f1_drop": 0.00311118625652429
+   },
+   "dhead": {
+    "stage2_macro_f1_drop": 0.059787708300907294,
+    "stage1_binary_f1_drop": 0.06946120620554141
+   },
+   "r_amax": {
+    "stage2_macro_f1_drop": 0.0550700505873537,
+    "stage1_binary_f1_drop": 0.1334892508652813
+   },
+   "a": {
+    "stage2_macro_f1_drop": 0.05326504960810452,
+    "stage1_binary_f1_drop": 0.00013727284514108984
+   },
+   "hy": {
+    "stage2_macro_f1_drop": 0.051403547235207236,
+    "stage1_binary_f1_drop": 0.0002520409778679067
+   },
+   "hx": {
+    "stage2_macro_f1_drop": 0.049571801634086365,
+    "stage1_binary_f1_drop": 0.00040940792822963257
+   },
+   "rel_y": {
+    "stage2_macro_f1_drop": 0.04361128530874525,
+    "stage1_binary_f1_drop": 0.08076172970274043
+   },
+   "dv": {
+    "stage2_macro_f1_drop": 0.04249235634477122,
+    "stage1_binary_f1_drop": 0.01074933168949821
+   },
+   "ay": {
+    "stage2_macro_f1_drop": 0.015100333687440237,
+    "stage1_binary_f1_drop": 1.3637623898388185e-05
+   },
+   "ax": {
+    "stage2_macro_f1_drop": 0.008264338218377798,
+    "stage1_binary_f1_drop": 0.000245077072831168
+   },
+   "r_vmax": {
+    "stage2_macro_f1_drop": 0.0018958444663785823,
+    "stage1_binary_f1_drop": 0.016979887670189764
+   }
+  }
+ },
+ "peak_memory": [
+  {
+   "model": "HP-MDS",
+   "peak_extra_mb_batch8192": 134.254592,
+   "per_window_kb": 16.3885
+  },
+  {
+   "model": "RandomForest",
+   "peak_extra_mb_batch8192": 12.222464,
+   "per_window_kb": 1.492
+  },
+  {
+   "model": "XGBoost",
+   "peak_extra_mb_batch8192": 11.65312,
+   "per_window_kb": 1.4224999999999999
+  },
+  {
+   "model": "Bi-LSTM",
+   "peak_extra_mb_batch8192": 108.163072,
+   "per_window_kb": 13.2035
+  },
+  {
+   "model": "LSTM-AE",
+   "peak_extra_mb_batch8192": 31.289344,
+   "per_window_kb": 3.8195
+  },
+  {
+   "model": "Physics-only",
+   "peak_extra_mb_batch8192": 11.932495,
+   "per_window_kb": 1.4566033935546874
+  }
+ ],
+ "oscr": [
+  {
+   "holdout": 0,
+   "model": "HP-MDS",
+   "oscr": 0.44231148775902895
+  },
+  {
+   "holdout": 0,
+   "model": "RandomForest",
+   "oscr": 0.6497924012616699
+  },
+  {
+   "holdout": 0,
+   "model": "XGBoost",
+   "oscr": 0.6162617702243977
+  },
+  {
+   "holdout": 0,
+   "model": "Bi-LSTM",
+   "oscr": 0.5077537080304502
+  },
+  {
+   "holdout": 1,
+   "model": "HP-MDS",
+   "oscr": 0.6106244499433604
+  },
+  {
+   "holdout": 1,
+   "model": "RandomForest",
+   "oscr": 0.7690389873933148
+  },
+  {
+   "holdout": 1,
+   "model": "XGBoost",
+   "oscr": 0.6722973085444395
+  },
+  {
+   "holdout": 1,
+   "model": "Bi-LSTM",
+   "oscr": 0.6010282732768784
+  },
+  {
+   "holdout": 2,
+   "model": "HP-MDS",
+   "oscr": 0.6243181619554121
+  },
+  {
+   "holdout": 2,
+   "model": "RandomForest",
+   "oscr": 0.5582529993333991
+  },
+  {
+   "holdout": 2,
+   "model": "XGBoost",
+   "oscr": 0.7615942600662704
+  },
+  {
+   "holdout": 2,
+   "model": "Bi-LSTM",
+   "oscr": 0.6630333679791534
+  }
+ ]
+}

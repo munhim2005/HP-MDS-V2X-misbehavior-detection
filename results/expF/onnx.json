@@ -1,0 +1,30 @@
+[
+ {
+  "model": "HP-MDS Stage1 AE",
+  "onnx_latency_ms_median": 0.061599996115546674,
+  "onnx_latency_ms_p95": 0.08280000474769622,
+  "onnx_size_kb": 62.5224609375,
+  "max_abs_diff_vs_torch": 4.76837158203125e-07
+ },
+ {
+  "model": "HP-MDS Stage2 classifier",
+  "onnx_latency_ms_median": 0.046350000047823414,
+  "onnx_latency_ms_p95": 0.1158350012701703,
+  "onnx_size_kb": 93.5947265625,
+  "max_abs_diff_vs_torch": 2.86102294921875e-06
+ },
+ {
+  "model": "Bi-LSTM",
+  "onnx_latency_ms_median": 0.06344999565044418,
+  "onnx_latency_ms_p95": 0.08290999830933286,
+  "onnx_size_kb": 173.98828125,
+  "max_abs_diff_vs_torch": 2.86102294921875e-06
+ },
+ {
+  "model": "LSTM-AE",
+  "onnx_latency_ms_median": 0.10540000221226364,
+  "onnx_latency_ms_p95": 0.15086999883351376,
+  "onnx_size_kb": 265.521484375,
+  "max_abs_diff_vs_torch": 0.027921080589294434
+ }
+]

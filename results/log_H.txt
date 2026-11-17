@@ -1,0 +1,75 @@
+17:59:35 device: cuda; args: {'csv': None, 'veremi_dir': None, 'veremi_max_scen': 60, 'exp': ['H'], 'quick': False, 'quick_frac': 0.05, 'stream_by': 'sender', 'seeds': 3, 'open_seeds': 3, 'abl_seeds': 3, 'c_seeds': 2, 'b_seeds': 3, 'epochs': 20, 'w': 10, 'train_stride': 5, 'test_stride': 2, 'no_secondary': False, 'out': 'results', 'cache': 'cache'}
+17:59:35   fitting seed-0 HP-MDS for downstream experiments
+18:00:06   fitting seed-0 RandomForest for downstream experiments
+18:00:51   fitting seed-0 XGBoost for downstream experiments
+18:01:24   fitting seed-0 Bi-LSTM for downstream experiments
+18:01:43   fitting seed-0 LSTM-AE for downstream experiments
+18:02:00   fitting seed-0 Physics-only for downstream experiments
+18:02:01 [data] loaded cached messages cache\msgs_full.pkl (3,194,808)
+18:02:04 [H] jitter 0.00s HP-MDS         F1 0.9486 FPR 0.0000
+18:02:05 [H] jitter 0.00s RandomForest   F1 0.9614 FPR 0.0172
+18:02:06 [H] jitter 0.00s XGBoost        F1 0.9727 FPR 0.0008
+18:02:07 [H] jitter 0.00s Bi-LSTM        F1 0.9720 FPR 0.0009
+18:02:08 [H] jitter 0.00s LSTM-AE        F1 0.8680 FPR 0.0493
+18:02:08 [H] jitter 0.00s Physics-only   F1 0.9464 FPR 0.0005
+18:02:11 [H] jitter 0.02s HP-MDS         F1 0.9560 FPR 0.0255
+18:02:12 [H] jitter 0.02s RandomForest   F1 0.9614 FPR 0.0172
+18:02:13 [H] jitter 0.02s XGBoost        F1 0.9593 FPR 0.0208
+18:02:14 [H] jitter 0.02s Bi-LSTM        F1 0.9697 FPR 0.0033
+18:02:15 [H] jitter 0.02s LSTM-AE        F1 0.8680 FPR 0.0493
+18:02:15 [H] jitter 0.02s Physics-only   F1 0.5838 FPR 1.0000
+18:02:18 [H] jitter 0.05s HP-MDS         F1 0.9125 FPR 0.0946
+18:02:19 [H] jitter 0.05s RandomForest   F1 0.9615 FPR 0.0172
+18:02:20 [H] jitter 0.05s XGBoost        F1 0.9593 FPR 0.0208
+18:02:21 [H] jitter 0.05s Bi-LSTM        F1 0.9605 FPR 0.0131
+18:02:21 [H] jitter 0.05s LSTM-AE        F1 0.8680 FPR 0.0493
+18:02:22 [H] jitter 0.05s Physics-only   F1 0.5838 FPR 1.0000
+18:02:25 [H] jitter 0.10s HP-MDS         F1 0.8576 FPR 0.1925
+18:02:26 [H] jitter 0.10s RandomForest   F1 0.9571 FPR 0.0236
+18:02:27 [H] jitter 0.10s XGBoost        F1 0.9593 FPR 0.0209
+18:02:28 [H] jitter 0.10s Bi-LSTM        F1 0.9467 FPR 0.0318
+18:02:28 [H] jitter 0.10s LSTM-AE        F1 0.8681 FPR 0.0493
+18:02:29 [H] jitter 0.10s Physics-only   F1 0.5838 FPR 1.0000
+18:02:32 [H] jitter 0.20s HP-MDS         F1 0.7069 FPR 0.5487
+18:02:33 [H] jitter 0.20s RandomForest   F1 0.9225 FPR 0.0779
+18:02:34 [H] jitter 0.20s XGBoost        F1 0.9533 FPR 0.0299
+18:02:35 [H] jitter 0.20s Bi-LSTM        F1 0.9131 FPR 0.0850
+18:02:35 [H] jitter 0.20s LSTM-AE        F1 0.8691 FPR 0.0495
+18:02:35 [H] jitter 0.20s Physics-only   F1 0.5838 FPR 1.0000
+18:02:36 [H] eps 0.0   clean           HP-MDS=0.903 RandomForest=0.949 XGBoost=0.949 Bi-LSTM=0.947 LSTM-AE=0.825 Physics-only=0.899
+18:02:49 [H] eps 0.01  random noise    HP-MDS=0.947 RandomForest=0.902 XGBoost=0.928 Bi-LSTM=0.943 LSTM-AE=0.825 Physics-only=1.000
+18:02:49 [H] eps 0.01  PGD vs HP-MDS   HP-MDS=0.918 RandomForest=0.940 XGBoost=0.953 Bi-LSTM=0.941 LSTM-AE=0.823 Physics-only=0.888
+18:02:50 [H] eps 0.01  PGD vs Bi-LSTM  HP-MDS=0.903 RandomForest=0.926 XGBoost=0.953 Bi-LSTM=0.929 LSTM-AE=0.824 Physics-only=0.899
+18:03:02 [H] eps 0.05  random noise    HP-MDS=0.965 RandomForest=0.938 XGBoost=0.988 Bi-LSTM=0.994 LSTM-AE=0.845 Physics-only=1.000
+18:03:03 [H] eps 0.05  PGD vs HP-MDS   HP-MDS=0.863 RandomForest=0.933 XGBoost=0.976 Bi-LSTM=0.944 LSTM-AE=0.824 Physics-only=0.866
+18:03:03 [H] eps 0.05  PGD vs Bi-LSTM  HP-MDS=0.904 RandomForest=0.941 XGBoost=0.970 Bi-LSTM=0.907 LSTM-AE=0.844 Physics-only=0.899
+18:03:16 [H] eps 0.1   random noise    HP-MDS=0.977 RandomForest=0.997 XGBoost=1.000 Bi-LSTM=1.000 LSTM-AE=0.896 Physics-only=1.000
+18:03:16 [H] eps 0.1   PGD vs HP-MDS   HP-MDS=0.828 RandomForest=0.970 XGBoost=0.992 Bi-LSTM=0.954 LSTM-AE=0.849 Physics-only=0.929
+18:03:17 [H] eps 0.1   PGD vs Bi-LSTM  HP-MDS=0.910 RandomForest=0.952 XGBoost=0.984 Bi-LSTM=0.925 LSTM-AE=0.862 Physics-only=0.899
+18:03:29 [H] eps 0.25  random noise    HP-MDS=0.983 RandomForest=1.000 XGBoost=1.000 Bi-LSTM=1.000 LSTM-AE=1.000 Physics-only=1.000
+18:03:29 [H] eps 0.25  PGD vs HP-MDS   HP-MDS=0.848 RandomForest=0.993 XGBoost=0.994 Bi-LSTM=0.966 LSTM-AE=0.943 Physics-only=0.955
+18:03:30 [H] eps 0.25  PGD vs Bi-LSTM  HP-MDS=0.940 RandomForest=0.981 XGBoost=0.991 Bi-LSTM=0.942 LSTM-AE=0.989 Physics-only=0.899
+18:03:43 [H] eps 0.5   random noise    HP-MDS=0.987 RandomForest=1.000 XGBoost=1.000 Bi-LSTM=1.000 LSTM-AE=1.000 Physics-only=1.000
+18:03:43 [H] eps 0.5   PGD vs HP-MDS   HP-MDS=0.835 RandomForest=0.992 XGBoost=0.991 Bi-LSTM=0.991 LSTM-AE=0.999 Physics-only=0.958
+18:03:43 [H] eps 0.5   PGD vs Bi-LSTM  HP-MDS=0.937 RandomForest=0.989 XGBoost=0.996 Bi-LSTM=0.930 LSTM-AE=1.000 Physics-only=0.899
+18:04:00 [H] permutation importance done
+18:04:01 [H] memory HP-MDS         +134.3 MB for 8,192 windows
+18:04:01 [H] memory RandomForest   +12.2 MB for 8,192 windows
+18:04:03 [H] memory XGBoost        +11.7 MB for 8,192 windows
+18:04:04 [H] memory Bi-LSTM        +108.2 MB for 8,192 windows
+18:04:04 [H] memory LSTM-AE        +31.3 MB for 8,192 windows
+18:04:05 [H] memory Physics-only   +11.9 MB for 8,192 windows
+18:04:37 [H] OSCR holdout 0 HP-MDS         0.4423
+18:05:16 [H] OSCR holdout 0 RandomForest   0.6498
+18:05:33 [H] OSCR holdout 0 XGBoost        0.6163
+18:05:50 [H] OSCR holdout 0 Bi-LSTM        0.5078
+18:06:27 [H] OSCR holdout 1 HP-MDS         0.6106
+18:07:07 [H] OSCR holdout 1 RandomForest   0.7690
+18:07:35 [H] OSCR holdout 1 XGBoost        0.6723
+18:07:51 [H] OSCR holdout 1 Bi-LSTM        0.6010
+18:08:20 [H] OSCR holdout 2 HP-MDS         0.6243
+18:09:00 [H] OSCR holdout 2 RandomForest   0.5583
+18:09:26 [H] OSCR holdout 2 XGBoost        0.7616
+18:09:41 [H] OSCR holdout 2 Bi-LSTM        0.6630
+18:09:41 [H] all extra checks done
+18:09:41 === H finished in 10.1 min

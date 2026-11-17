@@ -1,0 +1,80 @@
+16:42:10 device: cuda; args: {'csv': '..\\VeReMi_Extension Dataset for Misbehaviors in VANETs\\mixalldata_clean.csv', 'veremi_dir': '..\\veremi_original', 'veremi_max_scen': 225, 'exp': ['C'], 'quick': False, 'quick_frac': 0.05, 'stream_by': 'sender', 'seeds': 3, 'open_seeds': 3, 'abl_seeds': 3, 'c_seeds': 2, 'b_seeds': 3, 'epochs': 20, 'w': 10, 'train_stride': 5, 'test_stride': 2, 'no_secondary': False, 'out': 'results', 'cache': 'cache'}
+16:42:10 [data] loaded cached messages cache\msgs_full.pkl (3,194,808)
+16:42:14 [data] windows w=10 built in 2s: train 361,137 val 300,425 test 300,913
+16:44:30 [C] original VeReMi windows: 775,881; classes {0: 619352, 1: 31354, 2: 31354, 3: 31418, 4: 31325, 9: 31078}
+16:44:30 [C] HP-MDS seed 0
+16:45:30     in-dist F1 0.9487 -> cross F1 0.8074 (FPR 0.0182)
+16:45:30 [C] RandomForest seed 0
+16:46:42     in-dist F1 0.9468 -> cross F1 0.6353 (FPR 0.2006)
+16:46:42 [C] XGBoost seed 0
+16:48:25     in-dist F1 0.9718 -> cross F1 0.4988 (FPR 0.4132)
+16:48:25 [C] Bi-LSTM seed 0
+16:49:00     in-dist F1 0.9724 -> cross F1 0.4883 (FPR 0.4437)
+16:49:00 [C] LSTM-AE seed 0
+16:49:40     in-dist F1 0.9220 -> cross F1 0.5084 (FPR 0.3264)
+16:49:40 [C] IsolationForest seed 0
+16:49:55     in-dist F1 0.8061 -> cross F1 0.4239 (FPR 0.2931)
+16:49:55 [C] Physics-only seed 0
+16:49:57     in-dist F1 0.9459 -> cross F1 0.7849 (FPR 0.0270)
+16:49:57 [C] HP-MDS seed 1
+16:51:23     in-dist F1 0.9487 -> cross F1 0.8291 (FPR 0.0048)
+16:51:23 [C] RandomForest seed 1
+16:52:12     in-dist F1 0.9518 -> cross F1 0.6172 (FPR 0.2226)
+16:52:12 [C] XGBoost seed 1
+16:54:01     in-dist F1 0.9720 -> cross F1 0.4986 (FPR 0.4132)
+16:54:01 [C] Bi-LSTM seed 1
+16:54:28     in-dist F1 0.9723 -> cross F1 0.4939 (FPR 0.4312)
+16:54:28 [C] LSTM-AE seed 1
+16:55:04     in-dist F1 0.9233 -> cross F1 0.5081 (FPR 0.3288)
+16:55:04 [C] IsolationForest seed 1
+16:55:19     in-dist F1 0.8079 -> cross F1 0.4260 (FPR 0.2796)
+16:55:19 [C] Physics-only seed 1
+16:55:21     in-dist F1 0.9459 -> cross F1 0.7849 (FPR 0.0270)
+16:55:22 === C finished in 13.2 min
+17:33:10 device: cuda; args: {'csv': '..\\VeReMi_Extension Dataset for Misbehaviors in VANETs\\mixalldata_clean.csv', 'veremi_dir': '..\\veremi_original', 'veremi_max_scen': 225, 'exp': ['C'], 'quick': False, 'quick_frac': 0.05, 'stream_by': 'sender', 'seeds': 3, 'open_seeds': 3, 'abl_seeds': 3, 'c_seeds': 5, 'b_seeds': 3, 'epochs': 20, 'w': 10, 'train_stride': 5, 'test_stride': 2, 'no_secondary': False, 'out': 'results', 'cache': 'cache'}
+17:33:11 [data] loaded cached messages cache\msgs_full.pkl (3,194,808)
+17:33:14 [data] windows w=10 built in 2s: train 361,137 val 300,425 test 300,913
+17:33:15 [C] original VeReMi windows: 775,881; classes {0: 619352, 1: 31354, 2: 31354, 3: 31418, 4: 31325, 9: 31078}
+17:33:15 [C] HP-MDS seed 2
+17:33:54     in-dist F1 0.9488 -> cross F1 0.7967 (FPR 0.0241)
+17:33:54 [C] RandomForest seed 2
+17:34:30     in-dist F1 0.9476 -> cross F1 0.6360 (FPR 0.2006)
+17:34:30 [C] XGBoost seed 2
+17:35:09     in-dist F1 0.9719 -> cross F1 0.5000 (FPR 0.4109)
+17:35:09 [C] Bi-LSTM seed 2
+17:35:32     in-dist F1 0.9724 -> cross F1 0.4849 (FPR 0.4518)
+17:35:32 [C] LSTM-AE seed 2
+17:35:54     in-dist F1 0.9236 -> cross F1 0.5043 (FPR 0.3401)
+17:35:54 [C] IsolationForest seed 2
+17:36:05     in-dist F1 0.8162 -> cross F1 0.4024 (FPR 0.3321)
+17:36:05 [C] Physics-only seed 2
+17:36:07     in-dist F1 0.9459 -> cross F1 0.7849 (FPR 0.0270)
+17:36:07 [C] HP-MDS seed 3
+17:36:47     in-dist F1 0.9487 -> cross F1 0.7914 (FPR 0.0279)
+17:36:47 [C] RandomForest seed 3
+17:37:24     in-dist F1 0.9496 -> cross F1 0.6377 (FPR 0.1990)
+17:37:24 [C] XGBoost seed 3
+17:38:03     in-dist F1 0.9719 -> cross F1 0.4984 (FPR 0.4139)
+17:38:03 [C] Bi-LSTM seed 3
+17:38:28     in-dist F1 0.9731 -> cross F1 0.5060 (FPR 0.4045)
+17:38:28 [C] LSTM-AE seed 3
+17:38:49     in-dist F1 0.9227 -> cross F1 0.5048 (FPR 0.3398)
+17:38:49 [C] IsolationForest seed 3
+17:39:00     in-dist F1 0.7980 -> cross F1 0.4680 (FPR 0.1846)
+17:39:00 [C] Physics-only seed 3
+17:39:02     in-dist F1 0.9459 -> cross F1 0.7849 (FPR 0.0270)
+17:39:02 [C] HP-MDS seed 4
+17:39:40     in-dist F1 0.9488 -> cross F1 0.7700 (FPR 0.0410)
+17:39:40 [C] RandomForest seed 4
+17:40:17     in-dist F1 0.9527 -> cross F1 0.6347 (FPR 0.2020)
+17:40:17 [C] XGBoost seed 4
+17:40:55     in-dist F1 0.9720 -> cross F1 0.5001 (FPR 0.4107)
+17:40:55 [C] Bi-LSTM seed 4
+17:41:10     in-dist F1 0.9720 -> cross F1 0.5047 (FPR 0.4070)
+17:41:10 [C] LSTM-AE seed 4
+17:41:30     in-dist F1 0.9231 -> cross F1 0.5058 (FPR 0.3365)
+17:41:30 [C] IsolationForest seed 4
+17:41:41     in-dist F1 0.7981 -> cross F1 0.4036 (FPR 0.2863)
+17:41:41 [C] Physics-only seed 4
+17:41:43     in-dist F1 0.9459 -> cross F1 0.7849 (FPR 0.0270)
+17:41:43 === C finished in 8.5 min

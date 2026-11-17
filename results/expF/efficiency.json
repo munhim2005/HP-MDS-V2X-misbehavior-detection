@@ -1,0 +1,79 @@
+{
+ "rows": [
+  {
+   "model": "HP-MDS",
+   "latency_ms_median": 1.5488499993807636,
+   "latency_ms_p95": 3.086774998155302,
+   "throughput_windows_per_s": 31846.966409239092,
+   "n_params": 38044,
+   "size_mb": 0.159515,
+   "within_100ms_budget": true
+  },
+  {
+   "model": "HP-MDS (Stage 1 only)",
+   "latency_ms_median": 0.8814999964670278,
+   "latency_ms_p95": 1.0433700059365947,
+   "throughput_windows_per_s": 69291.95402555697,
+   "n_params": 14792,
+   "size_mb": null,
+   "within_100ms_budget": true
+  },
+  {
+   "model": "RandomForest",
+   "latency_ms_median": 5.110549998789793,
+   "latency_ms_p95": 7.20482499928039,
+   "throughput_windows_per_s": 50333.0284834561,
+   "n_params": NaN,
+   "size_mb": 315.229043,
+   "within_100ms_budget": true
+  },
+  {
+   "model": "XGBoost",
+   "latency_ms_median": 9.246800000255462,
+   "latency_ms_p95": 16.87851000460794,
+   "throughput_windows_per_s": 6853.082621059336,
+   "n_params": NaN,
+   "size_mb": 35.054247,
+   "within_100ms_budget": true
+  },
+  {
+   "model": "Bi-LSTM",
+   "latency_ms_median": 0.4281999972590711,
+   "latency_ms_p95": 1.071664997652987,
+   "throughput_windows_per_s": 54635.74756888827,
+   "n_params": 44052,
+   "size_mb": 0.1795,
+   "within_100ms_budget": true
+  },
+  {
+   "model": "LSTM-AE",
+   "latency_ms_median": 0.8394999968004413,
+   "latency_ms_p95": 2.020789995367521,
+   "throughput_windows_per_s": 40993.19963802002,
+   "n_params": 66186,
+   "size_mb": 0.27047,
+   "within_100ms_budget": true
+  },
+  {
+   "model": "IsolationForest",
+   "latency_ms_median": 12.104900000849739,
+   "latency_ms_p95": 20.978489996559784,
+   "throughput_windows_per_s": 119914.06957604746,
+   "n_params": NaN,
+   "size_mb": 2.850349,
+   "within_100ms_budget": true
+  },
+  {
+   "model": "Physics-only",
+   "latency_ms_median": 0.020700004824902862,
+   "latency_ms_p95": 0.03372500177647451,
+   "throughput_windows_per_s": 1142471.9663972894,
+   "n_params": 0,
+   "size_mb": 0.000371,
+   "within_100ms_budget": true
+  }
+ ],
+ "hpmds_flag_rate": 0.37239667279246824,
+ "cpu_threads": 1,
+ "device": "cuda"
+}

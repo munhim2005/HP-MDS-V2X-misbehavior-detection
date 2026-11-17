@@ -1,0 +1,117 @@
+16:33:30 device: cuda; args: {'csv': None, 'veremi_dir': None, 'veremi_max_scen': 60, 'exp': ['ablation'], 'quick': False, 'quick_frac': 0.05, 'stream_by': 'sender', 'seeds': 3, 'open_seeds': 3, 'abl_seeds': 3, 'c_seeds': 2, 'b_seeds': 3, 'epochs': 20, 'w': 10, 'train_stride': 5, 'test_stride': 2, 'no_secondary': False, 'out': 'results', 'cache': 'cache'}
+16:35:00 [abl] components   Stage1: AE score only            seed 0 F1 0.9481
+16:35:00 [abl] components   Stage1: physics score only       seed 0 F1 0.9464
+16:35:00 [abl] components   Stage1: fused (alpha=0.6)        seed 0 F1 0.9481
+16:35:05 [abl] components   Stage1+Stage2, no open-set       seed 0 F1 0.9486 macroF1 0.7561
+16:35:07 [abl] components   Stage2 only (closed-set clf)     seed 0 F1 0.9729 macroF1 0.8260
+16:35:07 [abl] components   Full HP-MDS                      seed 0 F1 0.9487 macroF1 0.7371
+16:35:14 [abl] components   HP-MDS + confident Stage2 alarms (union) seed 0 F1 0.9729 macroF1 0.8072
+16:35:46 [abl] features     AE on FV-A                       seed 0 F1 0.8266
+16:35:46 [abl] features     AE on FV-A + physics fusion      seed 0 F1 0.9464
+16:36:15 [abl] features     AE on FV-B                       seed 0 F1 0.9165
+16:36:16 [abl] features     AE on FV-B + physics fusion      seed 0 F1 0.9464
+16:36:46 [abl] features     AE on FV-C                       seed 0 F1 0.9480
+16:36:46 [abl] features     AE on FV-C + physics fusion      seed 0 F1 0.9479
+16:37:27 [abl] latent       latent=8                         seed 0 F1 0.9480
+16:37:53 [abl] latent       latent=32                        seed 0 F1 0.9481
+16:38:53 [abl] imbalance    Stage2 none                      seed 0 F1 0.9485 macroF1 0.7293
+16:39:58 [abl] imbalance    Stage2 smote                     seed 0 F1 0.9485 macroF1 0.7285
+16:41:59 [abl] xgb_phys     XGBoost FV-B                     seed 0 F1 0.9727 macroF1 0.8278
+16:44:10 [abl] xgb_phys     XGBoost FV-C                     seed 0 F1 0.9729 macroF1 0.8311
+16:45:03 [abl] components   Stage1: AE score only            seed 1 F1 0.9481
+16:45:03 [abl] components   Stage1: physics score only       seed 1 F1 0.9464
+16:45:03 [abl] components   Stage1: fused (alpha=0.6)        seed 1 F1 0.9480
+16:45:04 [abl] components   Stage1+Stage2, no open-set       seed 1 F1 0.9486 macroF1 0.7431
+16:45:05 [abl] components   Stage2 only (closed-set clf)     seed 1 F1 0.9731 macroF1 0.8135
+16:45:05 [abl] components   Full HP-MDS                      seed 1 F1 0.9486 macroF1 0.7314
+16:45:11 [abl] components   HP-MDS + confident Stage2 alarms (union) seed 1 F1 0.9731 macroF1 0.8019
+16:45:38 [abl] features     AE on FV-A                       seed 1 F1 0.8186
+16:45:39 [abl] features     AE on FV-A + physics fusion      seed 1 F1 0.9464
+16:46:37 [abl] features     AE on FV-B                       seed 1 F1 0.9143
+16:46:38 [abl] features     AE on FV-B + physics fusion      seed 1 F1 0.9464
+16:47:18 [abl] features     AE on FV-C                       seed 1 F1 0.9482
+16:47:18 [abl] features     AE on FV-C + physics fusion      seed 1 F1 0.9480
+16:47:49 [abl] latent       latent=8                         seed 1 F1 0.9481
+16:48:21 [abl] latent       latent=32                        seed 1 F1 0.9480
+16:49:20 [abl] imbalance    Stage2 none                      seed 1 F1 0.9488 macroF1 0.7313
+16:50:05 [abl] imbalance    Stage2 smote                     seed 1 F1 0.9484 macroF1 0.7298
+16:52:31 [abl] xgb_phys     XGBoost FV-B                     seed 1 F1 0.9725 macroF1 0.8284
+16:54:11 [abl] xgb_phys     XGBoost FV-C                     seed 1 F1 0.9731 macroF1 0.8316
+16:55:06 [abl] components   Stage1: AE score only            seed 2 F1 0.9481
+16:55:06 [abl] components   Stage1: physics score only       seed 2 F1 0.9464
+16:55:06 [abl] components   Stage1: fused (alpha=0.6)        seed 2 F1 0.9481
+16:55:08 [abl] components   Stage1+Stage2, no open-set       seed 2 F1 0.9487 macroF1 0.7420
+16:55:09 [abl] components   Stage2 only (closed-set clf)     seed 2 F1 0.9725 macroF1 0.8113
+16:55:09 [abl] components   Full HP-MDS                      seed 2 F1 0.9487 macroF1 0.7287
+16:55:15 [abl] components   HP-MDS + confident Stage2 alarms (union) seed 2 F1 0.9729 macroF1 0.7991
+16:55:50 [abl] features     AE on FV-A                       seed 2 F1 0.8209
+16:55:51 [abl] features     AE on FV-A + physics fusion      seed 2 F1 0.9464
+16:56:26 [abl] features     AE on FV-B                       seed 2 F1 0.9146
+16:56:26 [abl] features     AE on FV-B + physics fusion      seed 2 F1 0.9464
+16:56:50 [abl] features     AE on FV-C                       seed 2 F1 0.9480
+16:56:50 [abl] features     AE on FV-C + physics fusion      seed 2 F1 0.9480
+16:57:14 [abl] latent       latent=8                         seed 2 F1 0.9480
+16:57:37 [abl] latent       latent=32                        seed 2 F1 0.9481
+16:58:18 [abl] imbalance    Stage2 none                      seed 2 F1 0.9486 macroF1 0.7344
+16:58:53 [abl] imbalance    Stage2 smote                     seed 2 F1 0.9485 macroF1 0.7282
+16:59:26 [abl] xgb_phys     XGBoost FV-B                     seed 2 F1 0.9726 macroF1 0.8281
+17:00:01 [abl] xgb_phys     XGBoost FV-C                     seed 2 F1 0.9731 macroF1 0.8319
+17:00:03 [data] windows w=5 built in 2s: train 375,836 val 312,633 test 313,226
+17:00:27 [abl] window       w=5                              seed 0 F1 0.9447 macroF1 0.7142
+17:00:56 [abl] window       w=5                              seed 1 F1 0.9447 macroF1 0.7183
+17:01:23 [abl] window       w=5                              seed 2 F1 0.9449 macroF1 0.7190
+17:01:26 [data] windows w=15 built in 3s: train 346,546 val 288,297 test 288,848
+17:02:05 [abl] window       w=15                             seed 0 F1 0.9511 macroF1 0.7395
+17:02:38 [abl] window       w=15                             seed 1 F1 0.9511 macroF1 0.7381
+17:03:09 [abl] window       w=15                             seed 2 F1 0.9512 macroF1 0.7351
+17:03:12 [data] windows w=20 built in 3s: train 332,078 val 276,335 test 276,741
+17:03:53 [abl] window       w=20                             seed 0 F1 0.9535 macroF1 0.7542
+17:04:34 [abl] window       w=20                             seed 1 F1 0.9535 macroF1 0.7460
+17:05:14 [abl] window       w=20                             seed 2 F1 0.9536 macroF1 0.7450
+17:05:14 === ablation finished in 31.7 min
+17:19:52 device: cuda; args: {'csv': None, 'veremi_dir': None, 'veremi_max_scen': 60, 'exp': ['ablation'], 'quick': False, 'quick_frac': 0.05, 'stream_by': 'sender', 'seeds': 3, 'open_seeds': 3, 'abl_seeds': 5, 'c_seeds': 2, 'b_seeds': 3, 'epochs': 20, 'w': 10, 'train_stride': 5, 'test_stride': 2, 'no_secondary': False, 'out': 'results', 'cache': 'cache'}
+17:20:32 [abl] components   Stage1: AE score only            seed 3 F1 0.9482
+17:20:32 [abl] components   Stage1: physics score only       seed 3 F1 0.9464
+17:20:32 [abl] components   Stage1: fused (alpha=0.7)        seed 3 F1 0.9482
+17:20:33 [abl] components   Stage1+Stage2, no open-set       seed 3 F1 0.9487 macroF1 0.7435
+17:20:34 [abl] components   Stage2 only (closed-set clf)     seed 3 F1 0.9725 macroF1 0.8128
+17:20:34 [abl] components   Full HP-MDS                      seed 3 F1 0.9486 macroF1 0.7357
+17:20:39 [abl] components   HP-MDS + confident Stage2 alarms (union) seed 3 F1 0.9729 macroF1 0.8060
+17:20:54 [abl] features     AE on FV-A                       seed 3 F1 0.8226
+17:20:54 [abl] features     AE on FV-A + physics fusion      seed 3 F1 0.9464
+17:21:10 [abl] features     AE on FV-B                       seed 3 F1 0.9161
+17:21:10 [abl] features     AE on FV-B + physics fusion      seed 3 F1 0.9464
+17:21:28 [abl] features     AE on FV-C                       seed 3 F1 0.9482
+17:21:28 [abl] features     AE on FV-C + physics fusion      seed 3 F1 0.9481
+17:21:46 [abl] latent       latent=8                         seed 3 F1 0.9480
+17:22:03 [abl] latent       latent=32                        seed 3 F1 0.9480
+17:22:38 [abl] imbalance    Stage2 none                      seed 3 F1 0.9485 macroF1 0.7324
+17:23:15 [abl] imbalance    Stage2 smote                     seed 3 F1 0.9484 macroF1 0.7324
+17:23:51 [abl] xgb_phys     XGBoost FV-B                     seed 3 F1 0.9726 macroF1 0.8287
+17:24:31 [abl] xgb_phys     XGBoost FV-C                     seed 3 F1 0.9731 macroF1 0.8314
+17:25:09 [abl] components   Stage1: AE score only            seed 4 F1 0.9482
+17:25:09 [abl] components   Stage1: physics score only       seed 4 F1 0.9464
+17:25:09 [abl] components   Stage1: fused (alpha=0.6)        seed 4 F1 0.9481
+17:25:10 [abl] components   Stage1+Stage2, no open-set       seed 4 F1 0.9486 macroF1 0.7472
+17:25:11 [abl] components   Stage2 only (closed-set clf)     seed 4 F1 0.9720 macroF1 0.8160
+17:25:11 [abl] components   Full HP-MDS                      seed 4 F1 0.9486 macroF1 0.7346
+17:25:15 [abl] components   HP-MDS + confident Stage2 alarms (union) seed 4 F1 0.9728 macroF1 0.8046
+17:25:31 [abl] features     AE on FV-A                       seed 4 F1 0.8181
+17:25:32 [abl] features     AE on FV-A + physics fusion      seed 4 F1 0.9464
+17:25:49 [abl] features     AE on FV-B                       seed 4 F1 0.9167
+17:25:49 [abl] features     AE on FV-B + physics fusion      seed 4 F1 0.9464
+17:26:08 [abl] features     AE on FV-C                       seed 4 F1 0.9480
+17:26:08 [abl] features     AE on FV-C + physics fusion      seed 4 F1 0.9480
+17:26:27 [abl] latent       latent=8                         seed 4 F1 0.9480
+17:26:45 [abl] latent       latent=32                        seed 4 F1 0.9481
+17:27:19 [abl] imbalance    Stage2 none                      seed 4 F1 0.9485 macroF1 0.7302
+17:27:58 [abl] imbalance    Stage2 smote                     seed 4 F1 0.9485 macroF1 0.7278
+17:28:35 [abl] xgb_phys     XGBoost FV-B                     seed 4 F1 0.9726 macroF1 0.8286
+17:29:12 [abl] xgb_phys     XGBoost FV-C                     seed 4 F1 0.9730 macroF1 0.8310
+17:29:47 [abl] window       w=5                              seed 3 F1 0.9450 macroF1 0.7179
+17:30:17 [abl] window       w=5                              seed 4 F1 0.9449 macroF1 0.7232
+17:30:59 [abl] window       w=15                             seed 3 F1 0.9510 macroF1 0.7427
+17:31:39 [abl] window       w=15                             seed 4 F1 0.9509 macroF1 0.7447
+17:32:25 [abl] window       w=20                             seed 3 F1 0.9535 macroF1 0.7444
+17:33:07 [abl] window       w=20                             seed 4 F1 0.9535 macroF1 0.7497
+17:33:07 === ablation finished in 13.2 min

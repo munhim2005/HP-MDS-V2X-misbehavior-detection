@@ -1,0 +1,4 @@
+16:06:29 device: cuda; args: {'csv': '..\\VeReMi_Extension Dataset for Misbehaviors in VANETs\\mixalldata_clean.csv', 'veremi_dir': None, 'veremi_max_scen': 60, 'exp': ['prepare'], 'quick': False, 'quick_frac': 0.05, 'stream_by': 'sender', 'seeds': 3, 'open_seeds': 3, 'abl_seeds': 3, 'c_seeds': 2, 'epochs': 20, 'w': 10, 'train_stride': 5, 'test_stride': 2, 'no_secondary': False, 'out': 'results', 'cache': 'cache'}
+16:06:40 [data] message features computed in 12s
+16:06:42 [data] windows w=10 built in 14s: train 361,137 val 300,425 test 300,913
+16:06:42 === prepare finished in 0.2 min

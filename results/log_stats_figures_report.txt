@@ -1,0 +1,10 @@
+17:05:18 device: cuda; args: {'csv': None, 'veremi_dir': None, 'veremi_max_scen': 60, 'exp': ['stats', 'figures', 'report'], 'quick': False, 'quick_frac': 0.05, 'stream_by': 'sender', 'seeds': 3, 'open_seeds': 3, 'abl_seeds': 3, 'c_seeds': 2, 'b_seeds': 3, 'epochs': 20, 'w': 10, 'train_stride': 5, 'test_stride': 2, 'no_secondary': False, 'out': 'results', 'cache': 'cache'}
+17:05:19 [stats] written results\stats\stats.json
+17:05:19 === stats finished in 0.0 min
+17:05:24 === figures finished in 0.1 min
+17:05:24 === report finished in 0.0 min
+17:47:20 device: cuda; args: {'csv': None, 'veremi_dir': None, 'veremi_max_scen': 60, 'exp': ['stats', 'figures', 'report'], 'quick': False, 'quick_frac': 0.05, 'stream_by': 'sender', 'seeds': 3, 'open_seeds': 3, 'abl_seeds': 3, 'c_seeds': 2, 'b_seeds': 3, 'epochs': 20, 'w': 10, 'train_stride': 5, 'test_stride': 2, 'no_secondary': False, 'out': 'results', 'cache': 'cache'}
+17:47:21 [stats] written results\stats\stats.json
+17:47:21 === stats finished in 0.0 min
+17:47:26 === figures finished in 0.1 min
+17:47:26 === report finished in 0.0 min

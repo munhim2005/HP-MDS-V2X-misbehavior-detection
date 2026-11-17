@@ -1,0 +1,105 @@
+16:22:34 device: cuda; args: {'csv': None, 'veremi_dir': None, 'veremi_max_scen': 60, 'exp': ['B', 'G', 'onnx'], 'quick': False, 'quick_frac': 0.05, 'stream_by': 'sender', 'seeds': 3, 'open_seeds': 3, 'abl_seeds': 3, 'c_seeds': 2, 'b_seeds': 3, 'epochs': 20, 'w': 10, 'train_stride': 5, 'test_stride': 2, 'no_secondary': False, 'out': 'results', 'cache': 'cache'}
+16:22:35 [data] loaded cached messages cache\msgs_full.pkl (3,194,808)
+16:22:36 [B] offpeak->rush HP-MDS seed 0
+16:23:41     source F1 0.9481 -> target F1 0.9490 (target FPR 0.0000)
+16:23:41 [B] offpeak->rush RandomForest seed 0
+16:24:10     source F1 0.9616 -> target F1 0.9626 (target FPR 0.0139)
+16:24:10 [B] offpeak->rush XGBoost seed 0
+16:24:57     source F1 0.9727 -> target F1 0.9722 (target FPR 0.0009)
+16:24:57 [B] offpeak->rush Bi-LSTM seed 0
+16:25:11     source F1 0.9707 -> target F1 0.9708 (target FPR 0.0023)
+16:25:11 [B] offpeak->rush LSTM-AE seed 0
+16:25:33     source F1 0.8485 -> target F1 0.8359 (target FPR 0.0993)
+16:25:33 [B] offpeak->rush IsolationForest seed 0
+16:25:47     source F1 0.8055 -> target F1 0.7994 (target FPR 0.0996)
+16:25:47 [B] offpeak->rush Physics-only seed 0
+16:25:49     source F1 0.9458 -> target F1 0.9468 (target FPR 0.0004)
+16:25:49 [B] offpeak->rush HP-MDS seed 1
+16:26:30     source F1 0.9481 -> target F1 0.9491 (target FPR 0.0000)
+16:26:30 [B] offpeak->rush RandomForest seed 1
+16:26:56     source F1 0.9600 -> target F1 0.9604 (target FPR 0.0168)
+16:26:56 [B] offpeak->rush XGBoost seed 1
+16:27:47     source F1 0.9727 -> target F1 0.9721 (target FPR 0.0010)
+16:27:47 [B] offpeak->rush Bi-LSTM seed 1
+16:28:07     source F1 0.9700 -> target F1 0.9691 (target FPR 0.0048)
+16:28:07 [B] offpeak->rush LSTM-AE seed 1
+16:28:30     source F1 0.8456 -> target F1 0.8328 (target FPR 0.0999)
+16:28:30 [B] offpeak->rush IsolationForest seed 1
+16:28:36     source F1 0.8069 -> target F1 0.7976 (target FPR 0.1018)
+16:28:36 [B] offpeak->rush Physics-only seed 1
+16:28:37     source F1 0.9458 -> target F1 0.9468 (target FPR 0.0004)
+16:28:37 [B] offpeak->rush HP-MDS seed 2
+16:29:04     source F1 0.9480 -> target F1 0.9491 (target FPR 0.0001)
+16:29:04 [B] offpeak->rush RandomForest seed 2
+16:29:28     source F1 0.9613 -> target F1 0.9618 (target FPR 0.0148)
+16:29:28 [B] offpeak->rush XGBoost seed 2
+16:30:35     source F1 0.9729 -> target F1 0.9722 (target FPR 0.0009)
+16:30:35 [B] offpeak->rush Bi-LSTM seed 2
+16:30:58     source F1 0.9721 -> target F1 0.9724 (target FPR 0.0006)
+16:30:58 [B] offpeak->rush LSTM-AE seed 2
+16:31:20     source F1 0.8481 -> target F1 0.8361 (target FPR 0.1006)
+16:31:20 [B] offpeak->rush IsolationForest seed 2
+16:31:25     source F1 0.7893 -> target F1 0.7827 (target FPR 0.1028)
+16:31:25 [B] offpeak->rush Physics-only seed 2
+16:31:26     source F1 0.9458 -> target F1 0.9468 (target FPR 0.0004)
+16:31:27 [B] rush->offpeak HP-MDS seed 0
+16:31:57     source F1 0.9487 -> target F1 0.9475 (target FPR 0.0000)
+16:31:57 [B] rush->offpeak RandomForest seed 0
+16:32:24     source F1 0.9692 -> target F1 0.9708 (target FPR 0.0037)
+16:32:24 [B] rush->offpeak XGBoost seed 0
+16:33:04     source F1 0.9717 -> target F1 0.9727 (target FPR 0.0011)
+16:33:04 [B] rush->offpeak Bi-LSTM seed 0
+16:33:19     source F1 0.9702 -> target F1 0.9708 (target FPR 0.0027)
+16:33:19 [B] rush->offpeak LSTM-AE seed 0
+16:33:33     source F1 0.8315 -> target F1 0.8418 (target FPR 0.1074)
+16:33:33 [B] rush->offpeak IsolationForest seed 0
+16:33:39     source F1 0.7985 -> target F1 0.8003 (target FPR 0.0497)
+16:33:39 [B] rush->offpeak Physics-only seed 0
+16:33:40     source F1 0.9469 -> target F1 0.9459 (target FPR 0.0006)
+16:33:40 [B] rush->offpeak HP-MDS seed 1
+16:34:21     source F1 0.9488 -> target F1 0.9479 (target FPR 0.0001)
+16:34:21 [B] rush->offpeak RandomForest seed 1
+16:35:07     source F1 0.9695 -> target F1 0.9711 (target FPR 0.0032)
+16:35:07 [B] rush->offpeak XGBoost seed 1
+16:35:51     source F1 0.9714 -> target F1 0.9727 (target FPR 0.0010)
+16:35:51 [B] rush->offpeak Bi-LSTM seed 1
+16:36:07     source F1 0.9711 -> target F1 0.9712 (target FPR 0.0017)
+16:36:07 [B] rush->offpeak LSTM-AE seed 1
+16:36:24     source F1 0.8296 -> target F1 0.8395 (target FPR 0.1072)
+16:36:24 [B] rush->offpeak IsolationForest seed 1
+16:36:29     source F1 0.8001 -> target F1 0.8006 (target FPR 0.0495)
+16:36:29 [B] rush->offpeak Physics-only seed 1
+16:36:29     source F1 0.9469 -> target F1 0.9459 (target FPR 0.0006)
+16:36:29 [B] rush->offpeak HP-MDS seed 2
+16:37:03     source F1 0.9489 -> target F1 0.9482 (target FPR 0.0000)
+16:37:03 [B] rush->offpeak RandomForest seed 2
+16:37:31     source F1 0.9684 -> target F1 0.9701 (target FPR 0.0048)
+16:37:31 [B] rush->offpeak XGBoost seed 2
+16:38:13     source F1 0.9713 -> target F1 0.9723 (target FPR 0.0015)
+16:38:13 [B] rush->offpeak Bi-LSTM seed 2
+16:38:22     source F1 0.9701 -> target F1 0.9697 (target FPR 0.0036)
+16:38:22 [B] rush->offpeak LSTM-AE seed 2
+16:38:44     source F1 0.8326 -> target F1 0.8419 (target FPR 0.1065)
+16:38:44 [B] rush->offpeak IsolationForest seed 2
+16:39:01     source F1 0.7974 -> target F1 0.7918 (target FPR 0.0515)
+16:39:01 [B] rush->offpeak Physics-only seed 2
+16:39:04     source F1 0.9469 -> target F1 0.9459 (target FPR 0.0006)
+16:39:04 === B finished in 16.5 min
+16:39:04   fitting seed-0 HP-MDS for downstream experiments
+16:39:55   fitting seed-0 RandomForest for downstream experiments
+16:40:46   fitting seed-0 XGBoost for downstream experiments
+16:42:13   fitting seed-0 Bi-LSTM for downstream experiments
+16:43:07   fitting seed-0 Physics-only for downstream experiments
+16:43:23 [G] HP-MDS         stream detection 0.912 median delay 10 msgs / 9.0 s; benign streams with alarm 0.000
+16:43:28 [G] RandomForest   stream detection 0.958 median delay 10 msgs / 9.0 s; benign streams with alarm 0.353
+16:43:33 [G] XGBoost        stream detection 0.948 median delay 10 msgs / 9.0 s; benign streams with alarm 0.055
+16:43:38 [G] Bi-LSTM        stream detection 0.947 median delay 10 msgs / 9.0 s; benign streams with alarm 0.050
+16:43:39 [G] Physics-only   stream detection 0.912 median delay 10 msgs / 9.0 s; benign streams with alarm 0.009
+16:43:58 [G] error analysis written
+16:43:58 === G finished in 4.9 min
+16:43:59   fitting seed-0 LSTM-AE for downstream experiments
+16:44:28 [onnx] HP-MDS Stage1 AE           median 0.0616 ms p95 0.0828 ms size 63 KB diff 4.77e-07
+16:44:28 [onnx] HP-MDS Stage2 classifier   median 0.0464 ms p95 0.1158 ms size 94 KB diff 2.86e-06
+16:44:28 [onnx] Bi-LSTM                    median 0.0634 ms p95 0.0829 ms size 174 KB diff 2.86e-06
+16:44:28 [onnx] LSTM-AE                    median 0.1054 ms p95 0.1509 ms size 266 KB diff 2.79e-02
+16:44:28 === onnx finished in 0.5 min

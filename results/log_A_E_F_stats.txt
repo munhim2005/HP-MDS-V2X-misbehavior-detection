@@ -1,0 +1,137 @@
+16:06:46 device: cuda; args: {'csv': None, 'veremi_dir': None, 'veremi_max_scen': 60, 'exp': ['A', 'E', 'F', 'stats'], 'quick': False, 'quick_frac': 0.05, 'stream_by': 'sender', 'seeds': 5, 'open_seeds': 3, 'abl_seeds': 3, 'c_seeds': 2, 'epochs': 20, 'w': 10, 'train_stride': 5, 'test_stride': 2, 'no_secondary': False, 'out': 'results', 'cache': 'cache'}
+16:06:47 [A] HP-MDS seed 0
+16:07:29     F1 0.9485 MCC 0.9187 FPR 0.0000 macroF1 0.7335
+16:07:29 [A] RandomForest seed 0
+16:08:43     F1 0.9614 MCC 0.9353 FPR 0.0172 macroF1 0.8269
+16:08:43 [A] XGBoost seed 0
+16:09:48     F1 0.9727 MCC 0.9553 FPR 0.0008 macroF1 0.8278
+16:09:48 [A] Bi-LSTM seed 0
+16:10:14     F1 0.9720 MCC 0.9542 FPR 0.0009 macroF1 0.8215
+16:10:15 [A] LSTM-AE seed 0
+16:10:39     F1 0.8680 MCC 0.7877 FPR 0.0493
+16:10:40 [A] IsolationForest seed 0
+16:10:46     F1 0.8060 MCC 0.6820 FPR 0.0999
+16:10:46 [A] Physics-only seed 0
+16:10:47     F1 0.9464 MCC 0.9155 FPR 0.0005
+16:10:48 [A] KNN-Bagging* seed 0
+16:12:15     F1 0.9103 MCC 0.8622 FPR 0.0076 macroF1 0.6572
+16:12:16 [A] Stacked* seed 0
+16:13:53     F1 0.9732 MCC 0.9562 FPR 0.0000 macroF1 0.8255
+16:13:55 [A] HP-MDS seed 1
+16:14:44     F1 0.9487 MCC 0.9190 FPR 0.0000 macroF1 0.7307
+16:14:44 [A] RandomForest seed 1
+16:15:43     F1 0.9574 MCC 0.9281 FPR 0.0234 macroF1 0.8274
+16:15:43 [A] XGBoost seed 1
+16:16:48     F1 0.9725 MCC 0.9549 FPR 0.0011 macroF1 0.8284
+16:16:48 [A] Bi-LSTM seed 1
+16:17:14     F1 0.9717 MCC 0.9535 FPR 0.0019 macroF1 0.8192
+16:17:14 [A] LSTM-AE seed 1
+16:17:40     F1 0.8730 MCC 0.7948 FPR 0.0489
+16:17:40 [A] IsolationForest seed 1
+16:17:51     F1 0.8037 MCC 0.7042 FPR 0.0484
+16:17:51 [A] Physics-only seed 1
+16:17:55     F1 0.9464 MCC 0.9155 FPR 0.0005
+16:17:55 [A] HP-MDS seed 2
+16:18:51     F1 0.9487 MCC 0.9191 FPR 0.0000 macroF1 0.7302
+16:18:51 [A] RandomForest seed 2
+16:19:42     F1 0.9598 MCC 0.9323 FPR 0.0195 macroF1 0.8266
+16:19:42 [A] XGBoost seed 2
+16:20:33     F1 0.9726 MCC 0.9551 FPR 0.0010 macroF1 0.8281
+16:20:33 [A] Bi-LSTM seed 2
+16:21:00     F1 0.9730 MCC 0.9559 FPR 0.0001 macroF1 0.8250
+16:21:00 [A] LSTM-AE seed 2
+16:21:37     F1 0.8649 MCC 0.7690 FPR 0.1006
+16:21:37 [A] IsolationForest seed 2
+16:21:46     F1 0.7958 MCC 0.6678 FPR 0.1001
+16:21:46 [A] Physics-only seed 2
+16:21:48     F1 0.9464 MCC 0.9155 FPR 0.0005
+16:21:48 [A] HP-MDS seed 3
+16:22:34     F1 0.9485 MCC 0.9187 FPR 0.0001 macroF1 0.7288
+16:22:34 [A] RandomForest seed 3
+16:23:38     F1 0.9600 MCC 0.9327 FPR 0.0193 macroF1 0.8272
+16:23:38 [A] XGBoost seed 3
+16:25:08     F1 0.9726 MCC 0.9551 FPR 0.0009 macroF1 0.8287
+16:25:08 [A] Bi-LSTM seed 3
+16:25:39     F1 0.9720 MCC 0.9541 FPR 0.0012 macroF1 0.8185
+16:25:39 [A] LSTM-AE seed 3
+16:26:23     F1 0.8598 MCC 0.7760 FPR 0.0500
+16:26:23 [A] IsolationForest seed 3
+16:26:30     F1 0.7905 MCC 0.6624 FPR 0.0961
+16:26:30 [A] Physics-only seed 3
+16:26:33     F1 0.9464 MCC 0.9155 FPR 0.0005
+16:26:33 [A] HP-MDS seed 4
+16:27:34     F1 0.9486 MCC 0.9188 FPR 0.0001 macroF1 0.7343
+16:27:34 [A] RandomForest seed 4
+16:28:33     F1 0.9580 MCC 0.9292 FPR 0.0223 macroF1 0.8284
+16:28:33 [A] XGBoost seed 4
+16:30:09     F1 0.9726 MCC 0.9552 FPR 0.0009 macroF1 0.8286
+16:30:09 [A] Bi-LSTM seed 4
+16:30:40     F1 0.9724 MCC 0.9549 FPR 0.0005 macroF1 0.8148
+16:30:40 [A] LSTM-AE seed 4
+16:31:21     F1 0.8691 MCC 0.7893 FPR 0.0493
+16:31:21 [A] IsolationForest seed 4
+16:31:29     F1 0.7931 MCC 0.6643 FPR 0.0996
+16:31:29 [A] Physics-only seed 4
+16:31:31     F1 0.9464 MCC 0.9155 FPR 0.0005
+16:31:31 === A finished in 24.7 min
+16:31:31 [data] loaded cached messages cache\msgs_full.pkl (3,194,808)
+16:31:35 [E] clean                  HP-MDS          F1 0.9485 FPR 0.0000 recall 0.9021
+16:31:37 [E] clean                  RandomForest    F1 0.9614 FPR 0.0172 recall 0.9484
+16:31:38 [E] clean                  XGBoost         F1 0.9727 FPR 0.0008 recall 0.9479
+16:31:40 [E] clean                  Bi-LSTM         F1 0.9720 FPR 0.0009 recall 0.9468
+16:31:41 [E] clean                  LSTM-AE         F1 0.8680 FPR 0.0493 recall 0.8207
+16:31:41 [E] clean                  Physics-only    F1 0.9464 FPR 0.0005 recall 0.8989
+16:31:45 [E] pos1_spd0.2            HP-MDS          F1 0.8418 FPR 0.2231 recall 0.9580
+16:31:47 [E] pos1_spd0.2            RandomForest    F1 0.9305 FPR 0.0091 recall 0.8814
+16:31:49 [E] pos1_spd0.2            XGBoost         F1 0.9338 FPR 0.0012 recall 0.8773
+16:31:50 [E] pos1_spd0.2            Bi-LSTM         F1 0.9410 FPR 0.0226 recall 0.9173
+16:31:51 [E] pos1_spd0.2            LSTM-AE         F1 0.8679 FPR 0.0498 recall 0.8211
+16:31:52 [E] pos1_spd0.2            Physics-only    F1 0.8734 FPR 0.1493 recall 0.9403
+16:31:56 [E] pos3_spd0.5            HP-MDS          F1 0.5886 FPR 0.9779 recall 0.9986
+16:31:58 [E] pos3_spd0.5            RandomForest    F1 0.8891 FPR 0.0739 recall 0.8847
+16:32:01 [E] pos3_spd0.5            XGBoost         F1 0.8710 FPR 0.1036 recall 0.8854
+16:32:03 [E] pos3_spd0.5            Bi-LSTM         F1 0.8741 FPR 0.1487 recall 0.9409
+16:32:05 [E] pos3_spd0.5            LSTM-AE         F1 0.8679 FPR 0.0533 recall 0.8249
+16:32:07 [E] pos3_spd0.5            Physics-only    F1 0.5935 FPR 0.9567 recall 0.9977
+16:32:18 [E] pos5_spd1              HP-MDS          F1 0.5838 FPR 0.9998 recall 1.0000
+16:32:22 [E] pos5_spd1              RandomForest    F1 0.7658 FPR 0.3176 recall 0.9015
+16:32:24 [E] pos5_spd1              XGBoost         F1 0.6635 FPR 0.6150 recall 0.9318
+16:32:25 [E] pos5_spd1              Bi-LSTM         F1 0.7390 FPR 0.4431 recall 0.9563
+16:32:26 [E] pos5_spd1              LSTM-AE         F1 0.8666 FPR 0.0645 recall 0.8350
+16:32:27 [E] pos5_spd1              Physics-only    F1 0.5838 FPR 0.9998 recall 1.0000
+16:32:31 [E] pos10_spd2             HP-MDS          F1 0.5838 FPR 1.0000 recall 1.0000
+16:32:32 [E] pos10_spd2             RandomForest    F1 0.5849 FPR 0.9641 recall 0.9816
+16:32:34 [E] pos10_spd2             XGBoost         F1 0.5845 FPR 0.9929 recall 0.9977
+16:32:35 [E] pos10_spd2             Bi-LSTM         F1 0.5878 FPR 0.9793 recall 0.9975
+16:32:36 [E] pos10_spd2             LSTM-AE         F1 0.8102 FPR 0.2080 recall 0.8829
+16:32:36 [E] pos10_spd2             Physics-only    F1 0.5838 FPR 1.0000 recall 1.0000
+16:32:40 [E] drop10%                HP-MDS          F1 0.9552 FPR 0.0005 recall 0.9149
+16:32:42 [E] drop10%                RandomForest    F1 0.8664 FPR 0.1769 recall 0.9564
+16:32:43 [E] drop10%                XGBoost         F1 0.8406 FPR 0.2279 recall 0.9597
+16:32:44 [E] drop10%                Bi-LSTM         F1 0.9268 FPR 0.0586 recall 0.9355
+16:32:45 [E] drop10%                LSTM-AE         F1 0.8460 FPR 0.0848 recall 0.8214
+16:32:45 [E] drop10%                Physics-only    F1 0.6697 FPR 0.6476 recall 0.9664
+16:32:48 [E] drop30%                HP-MDS          F1 0.9422 FPR 0.0162 recall 0.9109
+16:32:49 [E] drop30%                RandomForest    F1 0.6916 FPR 0.6039 recall 0.9763
+16:32:50 [E] drop30%                XGBoost         F1 0.6639 FPR 0.6972 recall 0.9828
+16:32:51 [E] drop30%                Bi-LSTM         F1 0.7384 FPR 0.4285 recall 0.9371
+16:32:52 [E] drop30%                LSTM-AE         F1 0.7040 FPR 0.3814 recall 0.8338
+16:32:52 [E] drop30%                Physics-only    F1 0.5942 FPR 0.9695 recall 0.9974
+16:32:56 [E] pos3_spd0.5+drop10%    HP-MDS          F1 0.5894 FPR 0.9785 recall 0.9986
+16:32:58 [E] pos3_spd0.5+drop10%    RandomForest    F1 0.7974 FPR 0.2459 recall 0.8945
+16:32:59 [E] pos3_spd0.5+drop10%    XGBoost         F1 0.7284 FPR 0.4031 recall 0.9007
+16:33:00 [E] pos3_spd0.5+drop10%    Bi-LSTM         F1 0.8101 FPR 0.2784 recall 0.9500
+16:33:01 [E] pos3_spd0.5+drop10%    LSTM-AE         F1 0.8441 FPR 0.0918 recall 0.8255
+16:33:01 [E] pos3_spd0.5+drop10%    Physics-only    F1 0.5881 FPR 0.9845 recall 0.9990
+16:33:01 === E finished in 1.5 min
+16:33:03 [F] HP-MDS                   median 1.549 ms p95 3.087 ms thr 31,847/s params 38044
+16:33:03 [F] HP-MDS (Stage 1 only)    median 0.881 ms p95 1.043 ms thr 69,292/s params 14792
+16:33:06 [F] RandomForest             median 5.111 ms p95 7.205 ms thr 50,333/s params nan
+16:33:14 [F] XGBoost                  median 9.247 ms p95 16.879 ms thr 6,853/s params nan
+16:33:15 [F] Bi-LSTM                  median 0.428 ms p95 1.072 ms thr 54,636/s params 44052
+16:33:15 [F] LSTM-AE                  median 0.839 ms p95 2.021 ms thr 40,993/s params 66186
+16:33:21 [F] IsolationForest          median 12.105 ms p95 20.978 ms thr 119,914/s params nan
+16:33:21 [F] Physics-only             median 0.021 ms p95 0.034 ms thr 1,142,472/s params 0
+16:33:24 === F finished in 0.4 min
+16:33:26 [stats] written results\stats\stats.json
+16:33:26 === stats finished in 0.0 min

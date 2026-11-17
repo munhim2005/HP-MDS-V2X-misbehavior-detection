@@ -1,0 +1,214 @@
+16:06:47 device: cuda; args: {'csv': None, 'veremi_dir': None, 'veremi_max_scen': 60, 'exp': ['D'], 'quick': False, 'quick_frac': 0.05, 'stream_by': 'sender', 'seeds': 3, 'open_seeds': 3, 'abl_seeds': 3, 'c_seeds': 2, 'epochs': 20, 'w': 10, 'train_stride': 5, 'test_stride': 2, 'no_secondary': False, 'out': 'results', 'cache': 'cache'}
+16:06:48 [D] holdout 0 ['ConstPosOffset', 'ConstSpeedOffset', 'DataReplay', 'GridSybil'] HP-MDS seed 0
+16:07:32     unseen recall 0.851 known recall 0.917 FPR 0.0001 unseen->unknown 0.085
+16:07:32 [D] holdout 0 ['ConstPosOffset', 'ConstSpeedOffset', 'DataReplay', 'GridSybil'] RandomForest seed 0
+16:08:41     unseen recall 0.748 known recall 0.977 FPR 0.0010
+16:08:41 [D] holdout 0 ['ConstPosOffset', 'ConstSpeedOffset', 'DataReplay', 'GridSybil'] XGBoost seed 0
+16:09:14     unseen recall 0.727 known recall 0.977 FPR 0.0005
+16:09:14 [D] holdout 0 ['ConstPosOffset', 'ConstSpeedOffset', 'DataReplay', 'GridSybil'] Bi-LSTM seed 0
+16:09:40     unseen recall 0.844 known recall 0.977 FPR 0.0027
+16:09:40 [D] holdout 0 ['ConstPosOffset', 'ConstSpeedOffset', 'DataReplay', 'GridSybil'] LSTM-AE seed 0
+16:10:10     unseen recall 0.783 known recall 0.833 FPR 0.0493
+16:10:10 [D] holdout 0 ['ConstPosOffset', 'ConstSpeedOffset', 'DataReplay', 'GridSybil'] IsolationForest seed 0
+16:10:18     unseen recall 0.695 known recall 0.740 FPR 0.0495
+16:10:18 [D] holdout 0 ['ConstPosOffset', 'ConstSpeedOffset', 'DataReplay', 'GridSybil'] Physics-only seed 0
+16:10:19     unseen recall 0.844 known recall 0.916 FPR 0.0005
+16:10:19 [D] holdout 0 ['ConstPosOffset', 'ConstSpeedOffset', 'DataReplay', 'GridSybil'] HP-MDS seed 1
+16:11:07     unseen recall 0.853 known recall 0.917 FPR 0.0001 unseen->unknown 0.071
+16:11:07 [D] holdout 0 ['ConstPosOffset', 'ConstSpeedOffset', 'DataReplay', 'GridSybil'] RandomForest seed 1
+16:12:08     unseen recall 0.748 known recall 0.977 FPR 0.0016
+16:12:08 [D] holdout 0 ['ConstPosOffset', 'ConstSpeedOffset', 'DataReplay', 'GridSybil'] XGBoost seed 1
+16:12:39     unseen recall 0.730 known recall 0.977 FPR 0.0006
+16:12:39 [D] holdout 0 ['ConstPosOffset', 'ConstSpeedOffset', 'DataReplay', 'GridSybil'] Bi-LSTM seed 1
+16:13:05     unseen recall 0.840 known recall 0.976 FPR 0.0024
+16:13:05 [D] holdout 0 ['ConstPosOffset', 'ConstSpeedOffset', 'DataReplay', 'GridSybil'] LSTM-AE seed 1
+16:13:36     unseen recall 0.789 known recall 0.841 FPR 0.0489
+16:13:36 [D] holdout 0 ['ConstPosOffset', 'ConstSpeedOffset', 'DataReplay', 'GridSybil'] IsolationForest seed 1
+16:13:43     unseen recall 0.680 known recall 0.730 FPR 0.0484
+16:13:43 [D] holdout 0 ['ConstPosOffset', 'ConstSpeedOffset', 'DataReplay', 'GridSybil'] Physics-only seed 1
+16:13:44     unseen recall 0.844 known recall 0.916 FPR 0.0005
+16:13:44 [D] holdout 0 ['ConstPosOffset', 'ConstSpeedOffset', 'DataReplay', 'GridSybil'] HP-MDS seed 2
+16:14:24     unseen recall 0.854 known recall 0.917 FPR 0.0002 unseen->unknown 0.089
+16:14:24 [D] holdout 0 ['ConstPosOffset', 'ConstSpeedOffset', 'DataReplay', 'GridSybil'] RandomForest seed 2
+16:15:32     unseen recall 0.743 known recall 0.977 FPR 0.0013
+16:15:32 [D] holdout 0 ['ConstPosOffset', 'ConstSpeedOffset', 'DataReplay', 'GridSybil'] XGBoost seed 2
+16:16:06     unseen recall 0.729 known recall 0.977 FPR 0.0006
+16:16:06 [D] holdout 0 ['ConstPosOffset', 'ConstSpeedOffset', 'DataReplay', 'GridSybil'] Bi-LSTM seed 2
+16:16:20     unseen recall 0.833 known recall 0.974 FPR 0.0017
+16:16:20 [D] holdout 0 ['ConstPosOffset', 'ConstSpeedOffset', 'DataReplay', 'GridSybil'] LSTM-AE seed 2
+16:16:48     unseen recall 0.781 known recall 0.830 FPR 0.0500
+16:16:48 [D] holdout 0 ['ConstPosOffset', 'ConstSpeedOffset', 'DataReplay', 'GridSybil'] IsolationForest seed 2
+16:16:56     unseen recall 0.663 known recall 0.725 FPR 0.0493
+16:16:56 [D] holdout 0 ['ConstPosOffset', 'ConstSpeedOffset', 'DataReplay', 'GridSybil'] Physics-only seed 2
+16:16:57     unseen recall 0.844 known recall 0.916 FPR 0.0005
+16:16:57 [D] holdout 1 ['RandomPos', 'RandomSpeedOffset', 'DelayedMessages', 'DoSDisruptive'] HP-MDS seed 0
+16:17:42     unseen recall 0.872 known recall 0.910 FPR 0.0000 unseen->unknown 0.047
+16:17:42 [D] holdout 1 ['RandomPos', 'RandomSpeedOffset', 'DelayedMessages', 'DoSDisruptive'] RandomForest seed 0
+16:18:29     unseen recall 0.937 known recall 0.950 FPR 0.0139
+16:18:29 [D] holdout 1 ['RandomPos', 'RandomSpeedOffset', 'DelayedMessages', 'DoSDisruptive'] XGBoost seed 0
+16:19:19     unseen recall 0.861 known recall 0.950 FPR 0.0003
+16:19:19 [D] holdout 1 ['RandomPos', 'RandomSpeedOffset', 'DelayedMessages', 'DoSDisruptive'] Bi-LSTM seed 0
+16:19:45     unseen recall 0.936 known recall 0.949 FPR 0.0004
+16:19:45 [D] holdout 1 ['RandomPos', 'RandomSpeedOffset', 'DelayedMessages', 'DoSDisruptive'] LSTM-AE seed 0
+16:20:12     unseen recall 0.872 known recall 0.807 FPR 0.0493
+16:20:12 [D] holdout 1 ['RandomPos', 'RandomSpeedOffset', 'DelayedMessages', 'DoSDisruptive'] IsolationForest seed 0
+16:20:20     unseen recall 0.857 known recall 0.696 FPR 0.0495
+16:20:20 [D] holdout 1 ['RandomPos', 'RandomSpeedOffset', 'DelayedMessages', 'DoSDisruptive'] Physics-only seed 0
+16:20:21     unseen recall 0.872 known recall 0.906 FPR 0.0005
+16:20:21 [D] holdout 1 ['RandomPos', 'RandomSpeedOffset', 'DelayedMessages', 'DoSDisruptive'] HP-MDS seed 1
+16:21:03     unseen recall 0.872 known recall 0.910 FPR 0.0001 unseen->unknown 0.042
+16:21:03 [D] holdout 1 ['RandomPos', 'RandomSpeedOffset', 'DelayedMessages', 'DoSDisruptive'] RandomForest seed 1
+16:21:47     unseen recall 0.931 known recall 0.950 FPR 0.0131
+16:21:47 [D] holdout 1 ['RandomPos', 'RandomSpeedOffset', 'DelayedMessages', 'DoSDisruptive'] XGBoost seed 1
+16:22:34     unseen recall 0.860 known recall 0.950 FPR 0.0003
+16:22:34 [D] holdout 1 ['RandomPos', 'RandomSpeedOffset', 'DelayedMessages', 'DoSDisruptive'] Bi-LSTM seed 1
+16:23:19     unseen recall 0.938 known recall 0.949 FPR 0.0012
+16:23:19 [D] holdout 1 ['RandomPos', 'RandomSpeedOffset', 'DelayedMessages', 'DoSDisruptive'] LSTM-AE seed 1
+16:24:07     unseen recall 0.872 known recall 0.817 FPR 0.0489
+16:24:07 [D] holdout 1 ['RandomPos', 'RandomSpeedOffset', 'DelayedMessages', 'DoSDisruptive'] IsolationForest seed 1
+16:24:17     unseen recall 0.839 known recall 0.686 FPR 0.0484
+16:24:17 [D] holdout 1 ['RandomPos', 'RandomSpeedOffset', 'DelayedMessages', 'DoSDisruptive'] Physics-only seed 1
+16:24:18     unseen recall 0.872 known recall 0.906 FPR 0.0005
+16:24:18 [D] holdout 1 ['RandomPos', 'RandomSpeedOffset', 'DelayedMessages', 'DoSDisruptive'] HP-MDS seed 2
+16:25:23     unseen recall 0.872 known recall 0.910 FPR 0.0000 unseen->unknown 0.031
+16:25:23 [D] holdout 1 ['RandomPos', 'RandomSpeedOffset', 'DelayedMessages', 'DoSDisruptive'] RandomForest seed 2
+16:26:14     unseen recall 0.938 known recall 0.950 FPR 0.0168
+16:26:14 [D] holdout 1 ['RandomPos', 'RandomSpeedOffset', 'DelayedMessages', 'DoSDisruptive'] XGBoost seed 2
+16:27:31     unseen recall 0.870 known recall 0.950 FPR 0.0004
+16:27:31 [D] holdout 1 ['RandomPos', 'RandomSpeedOffset', 'DelayedMessages', 'DoSDisruptive'] Bi-LSTM seed 2
+16:28:12     unseen recall 0.939 known recall 0.949 FPR 0.0007
+16:28:12 [D] holdout 1 ['RandomPos', 'RandomSpeedOffset', 'DelayedMessages', 'DoSDisruptive'] LSTM-AE seed 2
+16:28:50     unseen recall 0.872 known recall 0.804 FPR 0.0500
+16:28:50 [D] holdout 1 ['RandomPos', 'RandomSpeedOffset', 'DelayedMessages', 'DoSDisruptive'] IsolationForest seed 2
+16:28:59     unseen recall 0.865 known recall 0.726 FPR 0.1001
+16:28:59 [D] holdout 1 ['RandomPos', 'RandomSpeedOffset', 'DelayedMessages', 'DoSDisruptive'] Physics-only seed 2
+16:29:00     unseen recall 0.872 known recall 0.906 FPR 0.0005
+16:29:00 [D] holdout 2 ['ConstPos', 'EventualStop', 'DoSRandom', 'DataReplaySybil'] HP-MDS seed 0
+16:30:03     unseen recall 0.816 known recall 0.922 FPR 0.0001 unseen->unknown 0.044
+16:30:03 [D] holdout 2 ['ConstPos', 'EventualStop', 'DoSRandom', 'DataReplaySybil'] RandomForest seed 0
+16:30:53     unseen recall 0.846 known recall 0.940 FPR 0.0086
+16:30:53 [D] holdout 2 ['ConstPos', 'EventualStop', 'DoSRandom', 'DataReplaySybil'] XGBoost seed 0
+16:31:48     unseen recall 0.846 known recall 0.940 FPR 0.0007
+16:31:48 [D] holdout 2 ['ConstPos', 'EventualStop', 'DoSRandom', 'DataReplaySybil'] Bi-LSTM seed 0
+16:32:23     unseen recall 0.807 known recall 0.939 FPR 0.0000
+16:32:23 [D] holdout 2 ['ConstPos', 'EventualStop', 'DoSRandom', 'DataReplaySybil'] LSTM-AE seed 0
+16:32:54     unseen recall 0.812 known recall 0.823 FPR 0.0493
+16:32:54 [D] holdout 2 ['ConstPos', 'EventualStop', 'DoSRandom', 'DataReplaySybil'] IsolationForest seed 0
+16:33:05     unseen recall 0.725 known recall 0.731 FPR 0.0495
+16:33:05 [D] holdout 2 ['ConstPos', 'EventualStop', 'DoSRandom', 'DataReplaySybil'] Physics-only seed 0
+16:33:06     unseen recall 0.827 known recall 0.918 FPR 0.0005
+16:33:06 [D] holdout 2 ['ConstPos', 'EventualStop', 'DoSRandom', 'DataReplaySybil'] HP-MDS seed 1
+16:34:01     unseen recall 0.823 known recall 0.922 FPR 0.0000 unseen->unknown 0.039
+16:34:01 [D] holdout 2 ['ConstPos', 'EventualStop', 'DoSRandom', 'DataReplaySybil'] RandomForest seed 1
+16:35:10     unseen recall 0.865 known recall 0.940 FPR 0.0082
+16:35:10 [D] holdout 2 ['ConstPos', 'EventualStop', 'DoSRandom', 'DataReplaySybil'] XGBoost seed 1
+16:36:18     unseen recall 0.853 known recall 0.940 FPR 0.0009
+16:36:18 [D] holdout 2 ['ConstPos', 'EventualStop', 'DoSRandom', 'DataReplaySybil'] Bi-LSTM seed 1
+16:36:47     unseen recall 0.805 known recall 0.939 FPR 0.0001
+16:36:47 [D] holdout 2 ['ConstPos', 'EventualStop', 'DoSRandom', 'DataReplaySybil'] LSTM-AE seed 1
+16:37:29     unseen recall 0.812 known recall 0.833 FPR 0.0489
+16:37:29 [D] holdout 2 ['ConstPos', 'EventualStop', 'DoSRandom', 'DataReplaySybil'] IsolationForest seed 1
+16:37:38     unseen recall 0.736 known recall 0.713 FPR 0.0484
+16:37:38 [D] holdout 2 ['ConstPos', 'EventualStop', 'DoSRandom', 'DataReplaySybil'] Physics-only seed 1
+16:37:40     unseen recall 0.827 known recall 0.918 FPR 0.0005
+16:37:40 [D] holdout 2 ['ConstPos', 'EventualStop', 'DoSRandom', 'DataReplaySybil'] HP-MDS seed 2
+16:38:27     unseen recall 0.814 known recall 0.922 FPR 0.0001 unseen->unknown 0.055
+16:38:27 [D] holdout 2 ['ConstPos', 'EventualStop', 'DoSRandom', 'DataReplaySybil'] RandomForest seed 2
+16:39:19     unseen recall 0.857 known recall 0.940 FPR 0.0111
+16:39:19 [D] holdout 2 ['ConstPos', 'EventualStop', 'DoSRandom', 'DataReplaySybil'] XGBoost seed 2
+16:40:50     unseen recall 0.845 known recall 0.940 FPR 0.0008
+16:40:50 [D] holdout 2 ['ConstPos', 'EventualStop', 'DoSRandom', 'DataReplaySybil'] Bi-LSTM seed 2
+16:41:12     unseen recall 0.807 known recall 0.939 FPR 0.0001
+16:41:12 [D] holdout 2 ['ConstPos', 'EventualStop', 'DoSRandom', 'DataReplaySybil'] LSTM-AE seed 2
+16:41:56     unseen recall 0.818 known recall 0.885 FPR 0.1006
+16:41:56 [D] holdout 2 ['ConstPos', 'EventualStop', 'DoSRandom', 'DataReplaySybil'] IsolationForest seed 2
+16:42:05     unseen recall 0.738 known recall 0.760 FPR 0.1001
+16:42:05 [D] holdout 2 ['ConstPos', 'EventualStop', 'DoSRandom', 'DataReplaySybil'] Physics-only seed 2
+16:42:06     unseen recall 0.827 known recall 0.918 FPR 0.0005
+16:42:06 === D finished in 35.3 min
+17:05:57 device: cuda; args: {'csv': None, 'veremi_dir': None, 'veremi_max_scen': 60, 'exp': ['D'], 'quick': False, 'quick_frac': 0.05, 'stream_by': 'sender', 'seeds': 3, 'open_seeds': 5, 'abl_seeds': 3, 'c_seeds': 2, 'b_seeds': 3, 'epochs': 20, 'w': 10, 'train_stride': 5, 'test_stride': 2, 'no_secondary': False, 'out': 'results', 'cache': 'cache'}
+17:05:57 [D] holdout 0 ['ConstPosOffset', 'ConstSpeedOffset', 'DataReplay', 'GridSybil'] HP-MDS seed 3
+17:06:36     unseen recall 0.853 known recall 0.917 FPR 0.0000 unseen->unknown 0.034
+17:06:36 [D] holdout 0 ['ConstPosOffset', 'ConstSpeedOffset', 'DataReplay', 'GridSybil'] RandomForest seed 3
+17:07:14     unseen recall 0.751 known recall 0.978 FPR 0.0018
+17:07:14 [D] holdout 0 ['ConstPosOffset', 'ConstSpeedOffset', 'DataReplay', 'GridSybil'] XGBoost seed 3
+17:07:33     unseen recall 0.726 known recall 0.977 FPR 0.0004
+17:07:33 [D] holdout 0 ['ConstPosOffset', 'ConstSpeedOffset', 'DataReplay', 'GridSybil'] Bi-LSTM seed 3
+17:07:51     unseen recall 0.841 known recall 0.977 FPR 0.0007
+17:07:51 [D] holdout 0 ['ConstPosOffset', 'ConstSpeedOffset', 'DataReplay', 'GridSybil'] LSTM-AE seed 3
+17:08:09     unseen recall 0.776 known recall 0.817 FPR 0.0500
+17:08:09 [D] holdout 0 ['ConstPosOffset', 'ConstSpeedOffset', 'DataReplay', 'GridSybil'] IsolationForest seed 3
+17:08:16     unseen recall 0.665 known recall 0.716 FPR 0.0486
+17:08:16 [D] holdout 0 ['ConstPosOffset', 'ConstSpeedOffset', 'DataReplay', 'GridSybil'] Physics-only seed 3
+17:08:17     unseen recall 0.844 known recall 0.916 FPR 0.0005
+17:08:17 [D] holdout 0 ['ConstPosOffset', 'ConstSpeedOffset', 'DataReplay', 'GridSybil'] HP-MDS seed 4
+17:08:54     unseen recall 0.853 known recall 0.917 FPR 0.0000 unseen->unknown 0.058
+17:08:54 [D] holdout 0 ['ConstPosOffset', 'ConstSpeedOffset', 'DataReplay', 'GridSybil'] RandomForest seed 4
+17:09:33     unseen recall 0.744 known recall 0.977 FPR 0.0016
+17:09:33 [D] holdout 0 ['ConstPosOffset', 'ConstSpeedOffset', 'DataReplay', 'GridSybil'] XGBoost seed 4
+17:09:51     unseen recall 0.730 known recall 0.977 FPR 0.0004
+17:09:51 [D] holdout 0 ['ConstPosOffset', 'ConstSpeedOffset', 'DataReplay', 'GridSybil'] Bi-LSTM seed 4
+17:10:09     unseen recall 0.844 known recall 0.977 FPR 0.0013
+17:10:09 [D] holdout 0 ['ConstPosOffset', 'ConstSpeedOffset', 'DataReplay', 'GridSybil'] LSTM-AE seed 4
+17:10:27     unseen recall 0.784 known recall 0.835 FPR 0.0493
+17:10:27 [D] holdout 0 ['ConstPosOffset', 'ConstSpeedOffset', 'DataReplay', 'GridSybil'] IsolationForest seed 4
+17:10:34     unseen recall 0.661 known recall 0.724 FPR 0.0486
+17:10:34 [D] holdout 0 ['ConstPosOffset', 'ConstSpeedOffset', 'DataReplay', 'GridSybil'] Physics-only seed 4
+17:10:35     unseen recall 0.844 known recall 0.916 FPR 0.0005
+17:10:35 [D] holdout 1 ['RandomPos', 'RandomSpeedOffset', 'DelayedMessages', 'DoSDisruptive'] HP-MDS seed 3
+17:11:13     unseen recall 0.872 known recall 0.910 FPR 0.0000 unseen->unknown 0.055
+17:11:13 [D] holdout 1 ['RandomPos', 'RandomSpeedOffset', 'DelayedMessages', 'DoSDisruptive'] RandomForest seed 3
+17:11:51     unseen recall 0.933 known recall 0.950 FPR 0.0174
+17:11:51 [D] holdout 1 ['RandomPos', 'RandomSpeedOffset', 'DelayedMessages', 'DoSDisruptive'] XGBoost seed 3
+17:12:20     unseen recall 0.871 known recall 0.950 FPR 0.0003
+17:12:20 [D] holdout 1 ['RandomPos', 'RandomSpeedOffset', 'DelayedMessages', 'DoSDisruptive'] Bi-LSTM seed 3
+17:12:33     unseen recall 0.938 known recall 0.949 FPR 0.0005
+17:12:33 [D] holdout 1 ['RandomPos', 'RandomSpeedOffset', 'DelayedMessages', 'DoSDisruptive'] LSTM-AE seed 3
+17:12:51     unseen recall 0.872 known recall 0.791 FPR 0.0500
+17:12:51 [D] holdout 1 ['RandomPos', 'RandomSpeedOffset', 'DelayedMessages', 'DoSDisruptive'] IsolationForest seed 3
+17:12:58     unseen recall 0.836 known recall 0.669 FPR 0.0486
+17:12:58 [D] holdout 1 ['RandomPos', 'RandomSpeedOffset', 'DelayedMessages', 'DoSDisruptive'] Physics-only seed 3
+17:12:59     unseen recall 0.872 known recall 0.906 FPR 0.0005
+17:12:59 [D] holdout 1 ['RandomPos', 'RandomSpeedOffset', 'DelayedMessages', 'DoSDisruptive'] HP-MDS seed 4
+17:13:28     unseen recall 0.872 known recall 0.910 FPR 0.0000 unseen->unknown 0.043
+17:13:28 [D] holdout 1 ['RandomPos', 'RandomSpeedOffset', 'DelayedMessages', 'DoSDisruptive'] RandomForest seed 4
+17:14:06     unseen recall 0.929 known recall 0.950 FPR 0.0128
+17:14:06 [D] holdout 1 ['RandomPos', 'RandomSpeedOffset', 'DelayedMessages', 'DoSDisruptive'] XGBoost seed 4
+17:14:34     unseen recall 0.863 known recall 0.950 FPR 0.0004
+17:14:34 [D] holdout 1 ['RandomPos', 'RandomSpeedOffset', 'DelayedMessages', 'DoSDisruptive'] Bi-LSTM seed 4
+17:14:47     unseen recall 0.931 known recall 0.949 FPR 0.0006
+17:14:47 [D] holdout 1 ['RandomPos', 'RandomSpeedOffset', 'DelayedMessages', 'DoSDisruptive'] LSTM-AE seed 4
+17:15:05     unseen recall 0.872 known recall 0.810 FPR 0.0493
+17:15:05 [D] holdout 1 ['RandomPos', 'RandomSpeedOffset', 'DelayedMessages', 'DoSDisruptive'] IsolationForest seed 4
+17:15:12     unseen recall 0.835 known recall 0.676 FPR 0.0486
+17:15:12 [D] holdout 1 ['RandomPos', 'RandomSpeedOffset', 'DelayedMessages', 'DoSDisruptive'] Physics-only seed 4
+17:15:13     unseen recall 0.872 known recall 0.906 FPR 0.0005
+17:15:13 [D] holdout 2 ['ConstPos', 'EventualStop', 'DoSRandom', 'DataReplaySybil'] HP-MDS seed 3
+17:15:43     unseen recall 0.815 known recall 0.922 FPR 0.0000 unseen->unknown 0.032
+17:15:43 [D] holdout 2 ['ConstPos', 'EventualStop', 'DoSRandom', 'DataReplaySybil'] RandomForest seed 3
+17:16:22     unseen recall 0.846 known recall 0.940 FPR 0.0092
+17:16:22 [D] holdout 2 ['ConstPos', 'EventualStop', 'DoSRandom', 'DataReplaySybil'] XGBoost seed 3
+17:16:49     unseen recall 0.844 known recall 0.940 FPR 0.0010
+17:16:49 [D] holdout 2 ['ConstPos', 'EventualStop', 'DoSRandom', 'DataReplaySybil'] Bi-LSTM seed 3
+17:17:02     unseen recall 0.812 known recall 0.939 FPR 0.0000
+17:17:02 [D] holdout 2 ['ConstPos', 'EventualStop', 'DoSRandom', 'DataReplaySybil'] LSTM-AE seed 3
+17:17:20     unseen recall 0.808 known recall 0.808 FPR 0.0500
+17:17:20 [D] holdout 2 ['ConstPos', 'EventualStop', 'DoSRandom', 'DataReplaySybil'] IsolationForest seed 3
+17:17:27     unseen recall 0.708 known recall 0.703 FPR 0.0486
+17:17:27 [D] holdout 2 ['ConstPos', 'EventualStop', 'DoSRandom', 'DataReplaySybil'] Physics-only seed 3
+17:17:28     unseen recall 0.827 known recall 0.918 FPR 0.0005
+17:17:28 [D] holdout 2 ['ConstPos', 'EventualStop', 'DoSRandom', 'DataReplaySybil'] HP-MDS seed 4
+17:17:58     unseen recall 0.819 known recall 0.922 FPR 0.0001 unseen->unknown 0.041
+17:17:58 [D] holdout 2 ['ConstPos', 'EventualStop', 'DoSRandom', 'DataReplaySybil'] RandomForest seed 4
+17:18:38     unseen recall 0.855 known recall 0.940 FPR 0.0092
+17:18:38 [D] holdout 2 ['ConstPos', 'EventualStop', 'DoSRandom', 'DataReplaySybil'] XGBoost seed 4
+17:19:05     unseen recall 0.851 known recall 0.940 FPR 0.0009
+17:19:05 [D] holdout 2 ['ConstPos', 'EventualStop', 'DoSRandom', 'DataReplaySybil'] Bi-LSTM seed 4
+17:19:22     unseen recall 0.809 known recall 0.939 FPR 0.0001
+17:19:22 [D] holdout 2 ['ConstPos', 'EventualStop', 'DoSRandom', 'DataReplaySybil'] LSTM-AE seed 4
+17:19:40     unseen recall 0.813 known recall 0.825 FPR 0.0493
+17:19:40 [D] holdout 2 ['ConstPos', 'EventualStop', 'DoSRandom', 'DataReplaySybil'] IsolationForest seed 4
+17:19:47     unseen recall 0.714 known recall 0.708 FPR 0.0486
+17:19:47 [D] holdout 2 ['ConstPos', 'EventualStop', 'DoSRandom', 'DataReplaySybil'] Physics-only seed 4
+17:19:48     unseen recall 0.827 known recall 0.918 FPR 0.0005
+17:19:48 === D finished in 13.9 min
