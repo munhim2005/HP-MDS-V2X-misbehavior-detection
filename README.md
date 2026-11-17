@@ -4,6 +4,16 @@ Hybrid Physics-informed Misbehavior Detection System (two-stage) for V2X Basic S
 baselines, experiments, ablations, statistics, figures and an auto-generated `results/RESULTS.md`.
 Group: Munhim Qazi (24I-2506), M. Omar Waqar (24I-0044).
 
+## Data setup
+Download both datasets and place them **next to** this repository folder:
+
+    <parent folder>/
+    ├── HP-MDS-V2X-misbehavior-detection/   <- this repo
+    ├── VeReMi_Extension Dataset for Misbehaviors in VANETs/mixalldata_clean.csv
+    └── veremi_original/*.tgz
+
+- VeReMi Extension (labelled CSV): https://doi.org/10.17632/k62n4z9gdz.1
+- Original VeReMi (225 .tgz archives, read directly): https://zenodo.org/records/20081895
 
 ## Files
 | File | What it does |
